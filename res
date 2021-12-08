@@ -84,6 +84,7 @@ Site 7 - x8: 88
 Site 8 - x8: 88
 Site 9 - x8: 88
 Site 10 - x8: 88
+<<<<<<< HEAD
 x5: 50
 Sites Affected: 1
 T5 commited. 
@@ -202,6 +203,50 @@ T2 aborted. site failure.
 x3: 30
 Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
 T1 commited. 
+=======
+Sites Affected: 3
+T2 aborted.
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 aborted.
+x2: 20
+T1 commited.
+Sites Affected: 3
+T1 commited.
+x1: 10
+x2: 20
+x3: 30
+T2 commited.
+x3: 33
+T3 commited.
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited.
+x1: 10
+x5: 50
+T1 aborted.
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited.
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x5: 50
+T1 aborted.
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 aborted.
+x3: 30
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited.
+>>>>>>> 1b1c5eaf235a71ee87c22e8eba27baf9d67519ce
 Site 1 - x4: 91
 Site 2 - 
 Site 3 - x4: 91
@@ -214,10 +259,17 @@ Site 9 - x4: 91
 Site 10 - x4: 91
 Sites Affected: 1
 Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+<<<<<<< HEAD
 T1 commited. 
 x2: 20
 x1: 10
 T2 commited. 
+=======
+T1 commited.
+x2: 20
+x1: 10
+T2 commited.
+>>>>>>> 1b1c5eaf235a71ee87c22e8eba27baf9d67519ce
 Site 1 - x2: 102
 Site 2 - x1: 101, x2: 102
 Site 3 - x2: 102
@@ -230,10 +282,17 @@ Site 9 - x2: 102
 Site 10 - x2: 102
 Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
 x3: 30
+<<<<<<< HEAD
 T2 commited. 
 x3: 30
 Sites Affected: 5
 T1 commited. 
+=======
+T2 commited.
+x3: 30
+Sites Affected: 5
+T1 commited.
+>>>>>>> 1b1c5eaf235a71ee87c22e8eba27baf9d67519ce
 Site 1 - x8: 88
 Site 2 - 
 Site 3 - x8: 88
@@ -246,10 +305,17 @@ Site 9 - x8: 88
 Site 10 - x8: 88
 Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 x3: 30
+<<<<<<< HEAD
 T2 aborted. site failure.
 x3: 30
 Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 T1 commited. 
+=======
+T2 aborted.
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited.
+>>>>>>> 1b1c5eaf235a71ee87c22e8eba27baf9d67519ce
 Site 1 - x4: 91
 Site 2 - x4: 91
 Site 3 - x4: 91
@@ -260,6 +326,7 @@ Site 7 - x4: 91
 Site 8 - x4: 91
 Site 9 - x4: 91
 Site 10 - x4: 91
+<<<<<<< HEAD
 Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 T3 commited. 
 Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
@@ -359,6 +426,47 @@ T1 commited.
 Sites Affected: 1, 2, 5, 6, 7, 8, 9, 10
 x3: 30
 T2 commited. 
+=======
+Sites Affected: 3
+T1 commited.
+x1: 10
+x2: 20
+x3: 30
+T2 commited.
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited.
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x5: 50
+T1 aborted.
+Sites Affected: 3
+T2 aborted.
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 aborted.
+x2: 20
+T1 commited.
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited.
+x1: 10
+x5: 50
+T1 aborted.
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+x1: 10
+T1 commited.
+Sites Affected: 1, 2, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited.
+>>>>>>> 1b1c5eaf235a71ee87c22e8eba27baf9d67519ce
 Site 1 - x8: 88
 Site 2 - x8: 88
 Site 3 - 
@@ -369,6 +477,7 @@ Site 7 - x8: 88
 Site 8 - x8: 88
 Site 9 - x8: 88
 Site 10 - x8: 88
+<<<<<<< HEAD
 Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 T2 blocked at tick 5 due to a read lock conflict on x2 held by T1.
@@ -379,6 +488,8 @@ x2: 20
 T1 blocked at tick 6 due to a write lock conflict on x4 held by T2.
 x4: 40
 T1 commited. 
+=======
+>>>>>>> 1b1c5eaf235a71ee87c22e8eba27baf9d67519ce
 Site 1 - 
 Site 2 - 
 Site 3 - 
@@ -390,11 +501,17 @@ Site 8 -
 Site 9 - 
 Site 10 - 
 Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+<<<<<<< HEAD
 T1 aborted. site failure.
 Sites Affected: 2, 3, 4, 5, 6, 7, 8, 9, 10
 T3 commited. 
 x2: 20
 T2 commited. 
+=======
+T1 aborted.
+Sites Affected: 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited.
+>>>>>>> 1b1c5eaf235a71ee87c22e8eba27baf9d67519ce
 Site 1 - 
 Site 2 - x2: 100
 Site 3 - x2: 100
@@ -405,6 +522,7 @@ Site 7 - x2: 100
 Site 8 - x2: 100
 Site 9 - x2: 100
 Site 10 - x2: 100
+<<<<<<< HEAD
 Sites Affected: 1
 T4 blocked at tick 20 due to a read lock conflict on x2 held by T2.
 T4 blocked at tick 21 due to a read lock conflict on x2 held by T2.
@@ -465,6 +583,12 @@ x1: 10
 T2 commited. 
 x1: 10
 T1 commited. 
+=======
+x2: 20
+T1 commited.
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited.
 Site 1 - 
 Site 2 - 
 Site 3 - 
@@ -475,6 +599,28 @@ Site 7 -
 Site 8 - 
 Site 9 - 
 Site 10 - 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+>>>>>>> 1b1c5eaf235a71ee87c22e8eba27baf9d67519ce
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+<<<<<<< HEAD
 Sites Affected: 1
 T3 blocked at tick 6 due to a read lock conflict on x1 held by T2.
 T3 blocked at tick 7 due to a read lock conflict on x1 held by T2.
@@ -675,6 +821,49 @@ T2 aborted. site failure.
 x3: 30
 Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 T1 commited. 
+=======
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted.
+Sites Affected: 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited.
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted.
+Sites Affected: 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited.
+x2: 20
+T1 commited.
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited.
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 aborted.
+x3: 30
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited.
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited.
+x3: 30
+Sites Affected: 5
+T1 commited.
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 aborted.
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited.
+>>>>>>> 1b1c5eaf235a71ee87c22e8eba27baf9d67519ce
 Site 1 - x4: 91
 Site 2 - x4: 91
 Site 3 - x4: 91
@@ -697,10 +886,17 @@ Site 9 - x4: 91
 Site 10 - x4: 91
 Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 x3: 30
+<<<<<<< HEAD
 T2 aborted. site failure.
 x3: 30
 Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
 T1 commited. 
+=======
+T2 aborted.
+x3: 30
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited.
+>>>>>>> 1b1c5eaf235a71ee87c22e8eba27baf9d67519ce
 Site 1 - x4: 91
 Site 2 - 
 Site 3 - x4: 91
@@ -723,10 +919,17 @@ Site 9 - x4: 91
 Site 10 - x4: 91
 Sites Affected: 1
 Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+<<<<<<< HEAD
 T1 commited. 
 x2: 20
 x1: 10
 T2 commited. 
+=======
+T1 commited.
+x2: 20
+x1: 10
+T2 commited.
+>>>>>>> 1b1c5eaf235a71ee87c22e8eba27baf9d67519ce
 Site 1 - x2: 102
 Site 2 - x1: 101, x2: 102
 Site 3 - x2: 102
@@ -739,6 +942,7 @@ Site 9 - x2: 102
 Site 10 - x2: 102
 Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
 x3: 30
+<<<<<<< HEAD
 T2 aborted. site failure.
 x3: 30
 Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
@@ -772,6 +976,22 @@ T3 blocked at tick 9 due to a read lock conflict on x1 held by T2.
 T3 commited. 
 Site 1 - 
 Site 2 - x1: 2
+=======
+T2 aborted.
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited.
+Sites Affected: 3
+T1 commited.
+x1: 10
+x2: 20
+x3: 30
+T2 commited.
+x3: 33
+T3 commited.
+Site 1 - 
+Site 2 - 
+>>>>>>> 1b1c5eaf235a71ee87c22e8eba27baf9d67519ce
 Site 3 - 
 Site 4 - 
 Site 5 - 
