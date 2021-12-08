@@ -1,0 +1,11 @@
+// Test 19
+// T1 fails because it wrote to a site that failed. T2 abort
+begin(T1)
+beginRO(T2)
+W(T1,x1,66)
+fail(2)
+R(T2,x1)
+R(T1, x5)
+end(T2)
+recover(2)
+end(T1)

@@ -1,0 +1,11 @@
+begin(T3)
+begin(T2)
+begin(T1)
+W(T1,x1,5); W(T3,x2,32)
+W(T2,x1,17); end(T1); begin(T4)
+W(T4,x4,35); W(T3,x5,21)
+W(T4,x2,21); W(T3,x4,23)
+
+
+// Test 0.
+// T1 commits, and one of T3 and T4 may commit

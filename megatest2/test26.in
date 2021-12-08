@@ -1,0 +1,8 @@
+// Read the value it writes
+begin(T1)
+W(T1, x2, 102)
+R(T1, x2)
+W(T1, x2, 202)
+R(T1, x2)
+end(T1)
+dump()

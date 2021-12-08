@@ -1,0 +1,56 @@
+// Test script #3
+// Purpose: To do an overall test testing all the requirements
+
+begin(T1)
+begin(T2)
+beginRO(T3)
+dump()
+// test MVCC ops
+W(T1, x2, 100)	// T1 writes x2 to all sites
+R(T3, x2)		// T3 reads x2 from site 1 (no need for lock)
+end(T1)			// should succeed
+R(T3, x2)		// T3 reads x2 from site 1, but not the value written by T1
+beginRO(T4)
+R(T4, x2)		// T4 reads x2 from site 1, reads the value written by T1
+W(T2, x2, 50)	// Should write to all sites
+end(T2)
+beginRO(T5)
+R(T3, x2)		// T3 reads x2 from site 1, but reads the original value
+R(T4, x2)		// T4 reads x2 from site 1, but reads the value written by T1
+R(T5, x2)		// T6 reads x2 from site 1, but reads the value written by T2
+end(T3);end(T4);end(T5)
+dump()
+begin(T6)
+begin(T7)
+begin(T8)
+// cause a deadlock and make sure the application avoids it using wait-die
+W(T7, x6, 20)
+W(T6, x8, 200)
+W(T8, x10, 500)
+R(T6, x6)	// should fail and wait for T7 to finish
+R(T7, x10)	// should fail and wait for T8 to finish
+R(T8, x8)	// should fail and abort due to wait-die - cannot wait for older transaction T6
+end(T7)
+// At this point, T6 should be able to read x6
+R(T6, x10)	// T6 reads x10 from site 1
+R(T6, x8)	// T6 reads x8 from site 1
+end(T6)
+dump()
+
+// Test failure / recovery
+begin(T9); begin(T10); begin(T11)
+fail(4)	// contains x3 and x13
+R(T9, x3)	// should fail because site 4 is down
+dump(4)
+recover(4)	// should cause T9's read to work because x3 is unreplicated
+fail(1);fail(2);fail(3)
+R(T9, x2)	// should read from site 5, NOT 4!
+W(T9, x2, 9)	// should write to all up sites, including 4
+end(T9)
+R(T10, x2)	// should read from site 4 and read the value 9
+beginRO(T12)
+fail(4);fail(5);fail(6);fail(7);fail(8);fail(9);fail(10)
+R(T12, x2)	// should wait until at least one site is recovered and written into
+recover(5)
+W(T11,x2,112)	// should write to the copy at site 5
+end(T11)	// should cause T12's request to be processed successfully - but T12 should still read the value written before T11

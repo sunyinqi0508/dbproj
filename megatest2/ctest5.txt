@@ -1,0 +1,9 @@
+// Single copy x5 on site 6. T1 reads before site failure.
+// T1 ok.
+beginRO(T1)
+R(T1, x3)
+R(T1, x5)
+fail(6)
+recover(6)
+R(T1, x2)
+end(T1)

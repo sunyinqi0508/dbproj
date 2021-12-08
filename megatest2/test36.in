@@ -1,0 +1,47 @@
+// 1. Failure on a single site - test that transactions can still read / write replicated data to other sites
+// 2. Failure on a single site - test that transactions cannot access unreplicated data
+// 3. Failures on multiple sites - test that transactions cannot access data if all sites have failed
+// 4. Recovery - test that unreplicated data is available immediately. Replicated data is not available until a committed write takes place
+
+
+begin(T1)
+begin(T2)
+beginRO(T3)
+
+dump()
+fail(1)
+fail(3)
+W(T2, x3, 10)
+fail(4)
+R(T1, x2)	// T1 reads x2 from site 2
+R(T2, x2)	// T2 reads x2 from site 2
+W(T1, x2, 10)	// T1 writes to sites 5-10
+end(T2)		// should abort because of site 4
+recover(4)
+dump()
+R(T1, x3)	// T1 reads x3 from site 4 because x3 is unreplicated (so value is available immediately after recovery)
+R(T3, x3)	// T3 reads x3 from the log in site 4 because x3 is unreplicated
+end(T1)		// should commit successfully
+end(T3)		// should commit successfully
+dump()
+
+begin(T4)
+begin(T5)
+beginRO(T6)
+fail(2);fail(4);fail(5);fail(6);fail(7);fail(8);fail(9);fail(10)	// all sites are down
+recover(2)	// only site live
+R(T4, x2)	// Should fail - T4 has to wait until a committed write has taken place
+W(T5, x2, 100)	// T5 writes x2 to site 2
+end(T5)
+R(T4, x1)	// T4 reads x1 from site 2 immediately because x1 is unreplicated
+dump()
+dump(2)
+recover(4);fail(2)
+dump()
+end(T4)	// T4 fails to commit because site 2 has failed
+begin(T7)
+R(T6, x4)	// T6 has to wait until a committed write to x4 takes place
+W(T7, x4, 75)	// Should succeed
+end(T7)		// Should cause T6's read to succeed - note: T6 should still read the value written before the last write
+end(T6)
+dump()

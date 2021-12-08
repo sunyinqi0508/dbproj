@@ -1,0 +1,6 @@
+//Testing concurrent actions.
+// T2 is killed, and T1 commits.
+begin(T1)
+begin(T2)
+W(T1,x7,777);W(T2,x8,888);W(T1,x8,88) ;R(T2,x7)
+end(T1)

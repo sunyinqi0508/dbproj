@@ -1,0 +1,17 @@
+// ReadOnly transaction is not affected by site failing
+// Write transaction start after site failing is not affected either
+// Recover site could responde to write, and after write all values are the same
+beginRO(T1)
+R(T1, x2)
+fail(1)
+begin(T2)
+W(T2, x2, 202)
+recover(1)
+end(T1)
+end(T2)
+dump()
+begin(T3)
+R(T3, x2)
+W(T3, x2, 302)
+end(T3)
+dump()

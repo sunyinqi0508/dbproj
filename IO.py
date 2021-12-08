@@ -1,23 +1,32 @@
-import os
-from transmgr import TransMgr
+import transmgr
 import re
     
 class parser:
-    def __init__(self, input, transmgr):
-        cmds = open(input, 'r').read().split('\n')
+    def __init__(self, input, transmgr, prompt = True):
+        self.transmgr = transmgr
         self.ws = re.compile('\s+')
-
+        
+        if input is not None:
+            self.input(input)
+        if prompt:
+            self.prompt()
+    def input(self, file):
+        if file.endswith('.DS_Store'):
+            return
+        cmds = open(file, 'r').read().split('\n')
         for c in cmds:
             self.parse(c)
-
-        self.transmgr = transmgr
+        self.transmgr = transmgr.TransMgr()
 
     def parse(self, cmd):
-        cmd = re.sub('', cmd).lower()
-        cmd = cmd[:cmd.find('\\')] 
+        cmd = self.ws.sub('', cmd).lower()
+        end = cmd.find('//') 
+        end = len(cmd) if end < 0 else end
+        cmd = cmd[:end] 
         
         lparen = cmd.find('(')
         rparen = cmd.rfind(')')
+        rparen = len(cmd) if rparen < 0 else rparen
         predicate = cmd[:lparen]
         params = cmd[lparen+1:rparen].split(',')
         params += [None] * (3-len(params))
@@ -26,12 +35,29 @@ class parser:
                 self.transmgr.exec(predicate, params[0], params[1], params[2])
             except (TypeError, ValueError):
                 pass
-        
+    def mega(self, loc):
+        from os import listdir
+        from os.path import isfile, join
+        tests = [f for f in listdir(loc) if isfile(join(loc, f))]
+        for t in tests:
+            self.input(loc+'/'+t)
     def prompt(self):
         cmd = ''
         while cmd != 'exit':
             cmd = input()
-            self.parse(cmd)
+            if cmd.startswith('source'):
+                self.transmgr = transmgr.TransMgr()
+                self.input(cmd[cmd.find(' '):].strip())
+            elif cmd.startswith('mega'):
+                self.mega(cmd[cmd.find(' '):].strip())
+            elif cmd.startswith('h'):
+                print("hello")
+            else:
+                self.parse(cmd)
 
 class Formatter:
-    pass
+    def out(self, str):
+        print(str)
+
+if __name__ == '__main__':
+    parser('input', transmgr.TransMgr())

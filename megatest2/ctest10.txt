@@ -1,0 +1,8 @@
+//Test26
+//Fail one site, write multi-copy item, ok
+
+begin(t1)
+w(t1,x2,222)
+fail(1)
+end(t1)
+dump()
