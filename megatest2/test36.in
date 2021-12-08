@@ -28,7 +28,21 @@ dump()
 begin(T4)
 begin(T5)
 beginRO(T6)
-fail(2);fail(4);fail(5);fail(6);fail(7);fail(8);fail(9);fail(10)	// all sites are down
+fail(2)
+
+fail(4)
+
+fail(5)
+
+fail(6)
+
+fail(7)
+
+fail(8)
+
+fail(9)
+
+fail(10)	// all sites are down
 recover(2)	// only site live
 R(T4, x2)	// Should fail - T4 has to wait until a committed write has taken place
 W(T5, x2, 100)	// T5 writes x2 to site 2
@@ -36,7 +50,9 @@ end(T5)
 R(T4, x1)	// T4 reads x1 from site 2 immediately because x1 is unreplicated
 dump()
 dump(2)
-recover(4);fail(2)
+recover(4)
+
+fail(2)
 dump()
 end(T4)	// T4 fails to commit because site 2 has failed
 begin(T7)

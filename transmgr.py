@@ -1,3 +1,5 @@
+# see https://github.com/sunyinqi0508/dbproj for updated documentations
+
 import sites
 from common import Job, Transaction, Lock
 class TransMgr:
@@ -12,8 +14,14 @@ class TransMgr:
         self.dep_graph = set()
         self.readonlys = []
         self.cmd_tick = 0
-    def read(self, tr, data):
-        j = Job(tr, data)
+    def read(self, tr, data, j = None):
+        if j is None:
+            tr.seq += 1
+            j = Job(tr, data,tr.seq)
+        else:
+            tr = j.tr
+            data = j.data
+            
         if not data % 2: # rep
             for s in self.sites:
                 if s.up:
@@ -21,26 +29,41 @@ class TransMgr:
                         if s.ro(tr, data):
                             return
                     else:
-                        j.succ = s.rw(j)
-                        return 
+                        if s.rw(j):
+                            break
 
                 elif not tr.ro and s in tr.sites:
                     tr.aborted = True  # some rw trans has failed sites => abort
+                    tr.reason = 2 # sites are down during trans
         else: # n-rep
             ret = self.sites[data%10]
             if tr.ro:
                 if ret.ro(tr, data): 
                     return
             else: 
-                j.succ = ret.rw(j)
-                return 
+                ret.rw(j)
         
-        tr.aborted = True # ro or rw has no avail sites
+        if not j.succ:
+            if j.seq == 1:
+                if j not in self.jobs:
+                    self.jobs.append(j)
+                    tr.blocked = True
+                    tr.out(f"T{tr.id} blocked because all possible sites are down.")
+            else:
+                tr.aborted = True # rw has no avail sites
+                tr.reason = 3 # read has no avail sites
 
-    def write(self, tr, data, val):
-        j = Job(tr, data,val)
+    def write(self, tr, data, val, j = None):
+        if j is None:
+            tr.seq += 1
+            j = Job(tr, data,tr.seq,val)
+        else:
+            tr = j.tr
+            data = j.data
+            val = j.val
+
+        ups = []
         if not data % 2:
-            ups = []
             for s in self.sites:
                 if s.up:
                     s.rw(j)
@@ -49,12 +72,24 @@ class TransMgr:
                 else:
                     if s in tr.sites:
                         tr.aborted = True
-                tr.write_out(ups)
+                        tr.reason = 2 #sites down during trans 
+            tr.write_out(data, ups)
             return j.succ
         else:
-            j.succ = self.sites[data%10].rw(j)
-            tr.write_out([data%10])
-
+            id = data % 10
+            if self.sites[id].up:
+                ups.append(id)
+                j.succ = self.sites[id].rw(j)
+                tr.write_out(data, [id])
+        if len(ups) == 0:
+            if j.seq == 1:
+                if j not in self.jobs:
+                    self.jobs.append(j)
+                    tr.blocked = True
+                    tr.out(f"T{tr.id} blocked because all possible sites are down.")
+            else:
+                tr.aborted = True
+                tr.reason = 1 # no avail site for w
         return j.succ
 
     def cycle_dect_dfs(self, curr, active, mintr):
@@ -80,6 +115,7 @@ class TransMgr:
         if mintr[0] >= 0:
             self.active[mintr[0]].blocking = False
             self.active[mintr[0]].aborted = True
+            self.active[mintr[0]].reason = 0 # deadlock detection
             self.active[mintr[0]].terminating = True
             return True
         return False
@@ -94,7 +130,7 @@ class TransMgr:
             for s in tr.sites:
                 getattr(s, op)(tr)
             tr.print()
-            print(f"T{k} {op}ed.")
+            print(f"T{k} {op}ed. {tr.getreason()}")
             del self.active[k]
         for k in terminated: 
             _update(k, 'commit')
@@ -113,11 +149,18 @@ class TransMgr:
                     res = s.tick()
                     changed = changed or res
             self.update()
+            self.recover()
             self.time += 1
         blocking = [k for k, v in self.active.items() if v.blocking and not v.aborted]
         if len(blocking) > 0 and self.cycle_detector():
             self.update()
             self.tick()
+    def recover(self):
+        for j in self.jobs:
+            if j.val is None:
+                self.read(0,0, j)
+            else:
+                self.write(0,0,0,j)
 
     def exec(self, cmd, p1, p2, p3):
         if cmd[0] == 'e':
@@ -125,8 +168,8 @@ class TransMgr:
             tr : Transaction = self.active.get(tid, None)
             if tr is not None:
                 tr.terminating = True
-            else:
-                print(f"Transaction T{tid} terminated before completion.")
+            # else:
+            #     print(f"Transaction T{tid} terminated before completion.")
 
         elif cmd[0] == 'w':
             tid = int(p1[1:])
@@ -139,7 +182,10 @@ class TransMgr:
                 print(f"error: transaction terminated: W({tid}, {data}, {val})")
 
         elif cmd[0] == 'f':
-            self.sites[int(p1) - 1].fail() # serv
+            site = int(p1)
+            print(f'Site {site} fails.')
+            self.sites[site - 1].fail() # serv
+
         elif cmd[0] == 'd':
             self.dump()
         elif cmd[:5] == 'begin':
@@ -154,7 +200,11 @@ class TransMgr:
                 self.readonlys.append(tr)
 
         elif cmd[:3] == 'rec':
-            self.sites[int (p1) - 1].rec() #recover
+            site = int(p1)
+            print(f'Site {site} recovers.')
+            self.sites[site - 1].rec() #recover
+            self.recover()
+
         elif cmd == 'r':
             tid = int(p1[1:])
             data = int(p2[1:])
@@ -165,7 +215,7 @@ class TransMgr:
                 print(f"error: transaction terminated: R({tid}, {data})")
         self.tick()
         self.cmd_tick += 1
-        
+
     def dump(self):
         for s in self.sites:
             print(f"Site {s.id} - ", end = '')

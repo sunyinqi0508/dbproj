@@ -1,0 +1,3531 @@
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted. site failure.
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 4 due to a write lock conflict on x2 held by T3.
+T2 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T2 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T1 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T1 commited. 
+Site 1 - x2: 80
+Site 2 - x2: 80
+Site 3 - x2: 80
+Site 4 - x2: 80
+Site 5 - x2: 80
+Site 6 - x2: 80
+Site 7 - x2: 80
+Site 8 - x2: 80
+Site 9 - x2: 80
+Site 10 - x2: 80
+x2: 20
+T1 commited. 
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+x2: 20
+T1 commited. 
+Sites Affected: 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Site 1 - 
+Site 2 - x2: 202
+Site 3 - x2: 202
+Site 4 - x2: 202
+Site 5 - x2: 202
+Site 6 - x2: 202
+Site 7 - x2: 202
+Site 8 - x2: 202
+Site 9 - x2: 202
+Site 10 - x2: 202
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited. 
+Site 1 - x2: 302
+Site 2 - x2: 302
+Site 3 - x2: 302
+Site 4 - x2: 302
+Site 5 - x2: 302
+Site 6 - x2: 302
+Site 7 - x2: 302
+Site 8 - x2: 302
+Site 9 - x2: 302
+Site 10 - x2: 302
+x1: 10
+T2 commited. 
+Sites Affected: 1
+x5: 50
+T1 aborted. site failure.
+Sites Affected: 3
+T1 commited. 
+x1: 10
+x2: 20
+x3: 30
+T2 commited. 
+x1: 10
+T1 commited. 
+Sites Affected: 1, 2, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+Sites Affected: 5
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 5 due to a write lock conflict on x5 held by T1.
+T2 blocked at tick 6 due to a write lock conflict on x5 held by T1.
+x5: 555
+T2 commited. 
+x5: 50
+T3 commited. 
+x5: 555
+T4 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+x2: 20
+x2: 20
+x2: 20
+T3 commited. 
+x2: 100
+x2: 100
+T4 commited. 
+x2: 50
+T5 commited. 
+Site 1 - x2: 50
+Site 2 - x2: 50
+Site 3 - x2: 50
+Site 4 - x2: 50
+Site 5 - x2: 50
+Site 6 - x2: 50
+Site 7 - x2: 50
+Site 8 - x2: 50
+Site 9 - x2: 50
+Site 10 - x2: 50
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T8 blocked at tick 28 due to a write lock conflict on x8 held by T6.
+T8 aborted. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T7 blocked at tick 27 due to a write lock conflict on x10 held by T8.
+T7 blocked at tick 28 due to a write lock conflict on x10 held by T8.
+x10: 100
+T7 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T6 blocked at tick 26 due to a write lock conflict on x6 held by T7.
+T6 blocked at tick 27 due to a write lock conflict on x6 held by T7.
+T6 blocked at tick 28 due to a write lock conflict on x6 held by T7.
+T6 blocked at tick 29 due to a write lock conflict on x6 held by T7.
+x10: 100
+x6: 20
+x8: 200
+T6 commited. 
+Site 1 - x2: 50, x6: 20, x8: 200
+Site 2 - x2: 50, x6: 20, x8: 200
+Site 3 - x2: 50, x6: 20, x8: 200
+Site 4 - x2: 50, x6: 20, x8: 200
+Site 5 - x2: 50, x6: 20, x8: 200
+Site 6 - x2: 50, x6: 20, x8: 200
+Site 7 - x2: 50, x6: 20, x8: 200
+Site 8 - x2: 50, x6: 20, x8: 200
+Site 9 - x2: 50, x6: 20, x8: 200
+Site 10 - x2: 50, x6: 20, x8: 200
+Site 1 - x2: 50, x6: 20, x8: 200
+Site 2 - x2: 50, x6: 20, x8: 200
+Site 3 - x2: 50, x6: 20, x8: 200
+Site 4 - x2: 50, x6: 20, x8: 200
+Site 5 - x2: 50, x6: 20, x8: 200
+Site 6 - x2: 50, x6: 20, x8: 200
+Site 7 - x2: 50, x6: 20, x8: 200
+Site 8 - x2: 50, x6: 20, x8: 200
+Site 9 - x2: 50, x6: 20, x8: 200
+Site 10 - x2: 50, x6: 20, x8: 200
+x3: 30
+x2: 50
+Sites Affected: 4, 5, 6, 7, 8, 9, 10
+T9 commited. 
+Sites Affected: 5
+T11 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 4 due to a write lock conflict on x2 held by T3.
+T2 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T2 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T1 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T1 commited. 
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+x3: 30
+Sites Affected: 5
+T1 commited. 
+Site 1 - x8: 88
+Site 2 - 
+Site 3 - x8: 88
+Site 4 - x8: 88
+Site 5 - x8: 88
+Site 6 - x5: 91, x8: 88
+Site 7 - x8: 88
+Site 8 - x8: 88
+Site 9 - x8: 88
+Site 10 - x8: 88
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted. site failure.
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted. site failure.
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+x1: 10
+T2 commited. 
+x1: 10
+T3 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1
+T1 blocked at tick 4 due to a read lock conflict on x1 held by T2.
+T1 blocked at tick 5 due to a read lock conflict on x1 held by T2.
+T1 blocked at tick 6 due to a read lock conflict on x1 held by T3.
+T1 blocked at tick 7 due to a read lock conflict on x1 held by T3.
+T1 blocked at tick 8 due to a read lock conflict on x1 held by T3.
+T1 commited. 
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 4 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 4 due to a read lock conflict on x2 held by T2.
+T2 aborted. 
+x2: 20
+T1 commited. 
+Sites Affected: 3
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x3 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x3 held by T2.
+T3 aborted. site failure.
+x2: 20
+T1 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - x3: 44
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T4 blocked at tick 10 due to a write lock conflict on x2 held by T3.
+T4 blocked at tick 11 due to a write lock conflict on x2 held by T3.
+T4 aborted. 
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+x1: 10
+x5: 50
+T1 aborted. site failure.
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x5: 50
+T1 aborted. site failure.
+Sites Affected: 3
+T1 commited. 
+x1: 10
+x2: 20
+x3: 30
+T2 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - x3: 33
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x4 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 44
+T3 commited. 
+x2: 22
+T1 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sites Affected: 5
+T3 commited. 
+Site 1 - x4: 100
+Site 2 - x4: 100
+Site 3 - x4: 100
+Site 4 - x4: 100
+Site 5 - x4: 100
+Site 6 - x4: 100, x5: 100
+Site 7 - x4: 100
+Site 8 - x4: 100
+Site 9 - x4: 100
+Site 10 - x4: 100
+x2: 20
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x2: 10
+T1 blocked at tick 10 due to a write lock conflict on x4 held by T3.
+T1 blocked at tick 11 due to a write lock conflict on x4 held by T3.
+T1 blocked at tick 12 due to a write lock conflict on x4 held by T3.
+x4: 100
+T1 commited. 
+Site 1 - x2: 10, x4: 100
+Site 2 - x2: 10, x4: 100
+Site 3 - x2: 10, x4: 100
+Site 4 - x2: 10, x4: 100
+Site 5 - x2: 10, x4: 100
+Site 6 - x2: 10, x4: 100, x5: 100
+Site 7 - x2: 10, x4: 100
+Site 8 - x2: 10, x4: 100
+Site 9 - x2: 10, x4: 100
+Site 10 - x2: 10, x4: 100
+x5: 100
+x5: 100
+T5 commited. 
+Site 1 - x2: 10, x4: 100
+Site 2 - x2: 10, x4: 100
+Site 3 - x2: 10, x4: 100
+Site 4 - x2: 10, x4: 100
+Site 5 - x2: 10, x4: 100
+Site 6 - x2: 10, x4: 100, x5: 100
+Site 7 - x2: 10, x4: 100
+Site 8 - x2: 10, x4: 100
+Site 9 - x2: 10, x4: 100
+Site 10 - x2: 10, x4: 100
+x5: 100
+T6 commited. 
+Site 1 - x2: 10, x4: 100
+Site 2 - x2: 10, x4: 100
+Site 3 - x2: 10, x4: 100
+Site 4 - x2: 10, x4: 100
+Site 5 - x2: 10, x4: 100
+Site 6 - x2: 10, x4: 100, x5: 100
+Site 7 - x2: 10, x4: 100
+Site 8 - x2: 10, x4: 100
+Site 9 - x2: 10, x4: 100
+Site 10 - x2: 10, x4: 100
+Sites Affected: 3
+T1 commited. 
+x1: 10
+x2: 20
+x3: 30
+T2 commited. 
+x3: 33
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x4 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 44
+T3 commited. 
+x2: 22
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 4 due to a write lock conflict on x2 held by T3.
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T1 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T2 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T2 commited. 
+x1: 10
+x2: 20
+x3: 30
+x3: 30
+T1 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+x1: 10
+T1 commited. 
+Sites Affected: 1, 2, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+Site 1 - x8: 88
+Site 2 - x8: 88
+Site 3 - 
+Site 4 - 
+Site 5 - x8: 88
+Site 6 - x8: 88
+Site 7 - x8: 88
+Site 8 - x8: 88
+Site 9 - x8: 88
+Site 10 - x8: 88
+Site 1 - x8: 88
+Site 2 - x8: 88
+Site 3 - 
+Site 4 - 
+Site 5 - x8: 88
+Site 6 - x8: 88
+Site 7 - x8: 88
+Site 8 - x8: 88
+Site 9 - x8: 88
+Site 10 - x8: 88
+Site 1 - x8: 88
+Site 2 - x8: 88
+Site 3 - 
+Site 4 - 
+Site 5 - x8: 88
+Site 6 - x8: 88
+Site 7 - x8: 88
+Site 8 - x8: 88
+Site 9 - x8: 88
+Site 10 - x8: 88
+x3: 30
+x5: 50
+x2: 20
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x4 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 44
+T3 commited. 
+x2: 22
+T1 commited. 
+Site 1 - x2: 22, x4: 44
+Site 2 - x2: 22, x4: 44
+Site 3 - x2: 22, x4: 44
+Site 4 - x2: 22, x4: 44
+Site 5 - x2: 22, x4: 44
+Site 6 - x2: 22, x4: 44
+Site 7 - x2: 22, x4: 44
+Site 8 - x2: 22, x4: 44
+Site 9 - x2: 22, x4: 44
+Site 10 - x2: 22, x4: 44
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sites Affected: 1
+T2 blocked at tick 5 due to a write lock conflict on x1 held by T1.
+T2 aborted. 
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 4 due to a write lock conflict on x2 held by T2.
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T2.
+T1 commited. 
+Site 1 - x2: 102
+Site 2 - x1: 101, x2: 102
+Site 3 - x2: 102
+Site 4 - x2: 102
+Site 5 - x2: 102
+Site 6 - x2: 102
+Site 7 - x2: 102
+Site 8 - x2: 102
+Site 9 - x2: 102
+Site 10 - x2: 102
+x3: 30
+x4: 40
+x5: 50
+T1 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+x4: 40
+Sites Affected: 3
+T4 blocked at tick 9 due to a read lock conflict on x3 held by T3.
+T4 blocked at tick 10 due to a read lock conflict on x3 held by T3.
+T4 aborted. 
+x2: 20
+Sites Affected: 1
+T2 blocked at tick 6 due to a read lock conflict on x1 held by T1.
+T2 blocked at tick 7 due to a read lock conflict on x1 held by T1.
+T2 blocked at tick 8 due to a read lock conflict on x1 held by T1.
+T2 blocked at tick 9 due to a read lock conflict on x1 held by T1.
+T2 blocked at tick 10 due to a read lock conflict on x1 held by T1.
+T2 blocked at tick 11 due to a read lock conflict on x1 held by T1.
+T2 aborted. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 11 due to a read lock conflict on x2 held by T2.
+T1 commited. 
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 10 due to a read lock conflict on x4 held by T4.
+T3 commited. 
+x3: 30
+x5: 50
+Sites Affected: 1
+T3 blocked at tick 8 due to a read lock conflict on x1 held by T1.
+T3 blocked at tick 9 due to a read lock conflict on x1 held by T1.
+T3 blocked at tick 10 due to a read lock conflict on x1 held by T1.
+T3 blocked at tick 11 due to a read lock conflict on x1 held by T1.
+T3 aborted. 
+Sites Affected: 3
+T4 blocked at tick 9 due to a read lock conflict on x3 held by T3.
+T4 blocked at tick 10 due to a read lock conflict on x3 held by T3.
+T4 blocked at tick 11 due to a read lock conflict on x3 held by T3.
+T4 commited. 
+x2: 20
+Sites Affected: 5
+T2 blocked at tick 11 due to a read lock conflict on x5 held by T3.
+T2 commited. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 10 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 11 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 12 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 13 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 14 due to a read lock conflict on x2 held by T2.
+T1 commited. 
+x1: 10
+T1 commited. 
+Sites Affected: 1, 2, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+Site 1 - x8: 88
+Site 2 - x8: 88
+Site 3 - 
+Site 4 - 
+Site 5 - x8: 88
+Site 6 - x8: 88
+Site 7 - x8: 88
+Site 8 - x8: 88
+Site 9 - x8: 88
+Site 10 - x8: 88
+x1: 10
+T2 commited. 
+Sites Affected: 1
+x5: 50
+T1 aborted. site failure.
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 25 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 26 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 27 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 28 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 29 due to a read lock conflict on x3 held by T3.
+T2 aborted. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 20 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 21 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 22 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 23 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 24 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 25 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 26 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 27 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 28 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 29 due to a read lock conflict on x2 held by T2.
+T1 aborted. 
+x4: 40
+Sites Affected: 5
+T4 blocked at tick 28 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 29 due to a read lock conflict on x5 held by T5.
+T4 aborted. 
+x9: 90
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T9 blocked at tick 30 due to a read lock conflict on x10 held by T10.
+T9 blocked at tick 31 due to a read lock conflict on x10 held by T10.
+T9 blocked at tick 32 due to a read lock conflict on x10 held by T10.
+T9 aborted. 
+x7: 70
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T7 blocked at tick 24 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 25 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 26 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 27 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 28 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 29 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 30 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 31 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 32 due to a read lock conflict on x8 held by T8.
+T7 aborted. 
+x6: 60
+Sites Affected: 7
+T6 blocked at tick 31 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 32 due to a read lock conflict on x7 held by T7.
+T6 aborted. 
+x8: 80
+x6: 60
+Sites Affected: 9
+T8 blocked at tick 26 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 26 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 27 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 27 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 28 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 28 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 29 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 29 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 30 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 30 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 31 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 31 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 32 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 32 due to a read lock conflict on x9 held by T10.
+T8 aborted. 
+x10: 100
+x9: 90
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T10 blocked at tick 32 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 32 due to a read lock conflict on x6 held by T8.
+T10 commited. 
+x3: 30
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 27 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 28 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 29 due to a read lock conflict on x4 held by T4.
+T3 commited. 
+Site 1 - x4: 34, x6: 6
+Site 2 - x4: 34, x6: 6
+Site 3 - x4: 34, x6: 6
+Site 4 - x4: 34, x6: 6
+Site 5 - x4: 34, x6: 6
+Site 6 - x4: 34, x6: 6
+Site 7 - x4: 34, x6: 6
+Site 8 - x4: 34, x6: 6
+Site 9 - x4: 34, x6: 6
+Site 10 - x4: 34, x6: 6
+x5: 50
+Sites Affected: 1
+T5 blocked at tick 29 due to a read lock conflict on x1 held by T1.
+T5 blocked at tick 29 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 30 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 31 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 32 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 33 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 34 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 35 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 36 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 37 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 38 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 39 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 40 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 41 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 42 due to a read lock conflict on x1 held by T3.
+T5 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted. site failure.
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 7 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 8 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 9 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 10 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 9 due to a write lock conflict on x4 held by T1.
+T3 blocked at tick 10 due to a write lock conflict on x4 held by T1.
+T3 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T3 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T4 blocked at tick 10 due to a write lock conflict on x4 held by T1.
+T4 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T4 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T4 blocked at tick 13 due to a write lock conflict on x4 held by T3.
+T4 blocked at tick 14 due to a write lock conflict on x4 held by T3.
+T4 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T5 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T5 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T5 blocked at tick 13 due to a write lock conflict on x4 held by T3.
+T5 blocked at tick 14 due to a write lock conflict on x4 held by T3.
+T5 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x4 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 44
+T3 commited. 
+x2: 22
+T1 commited. 
+x2: 20
+T1 commited. 
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Site 1 - x2: 10
+Site 2 - x2: 10
+Site 3 - x2: 10
+Site 4 - x2: 10
+Site 5 - x2: 10
+Site 6 - x2: 10
+Site 7 - x2: 10
+Site 8 - x2: 10
+Site 9 - x2: 10
+Site 10 - x2: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x2: 102
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x2: 202
+T1 commited. 
+Site 1 - x2: 202
+Site 2 - x2: 202
+Site 3 - x2: 202
+Site 4 - x2: 202
+Site 5 - x2: 202
+Site 6 - x2: 202
+Site 7 - x2: 202
+Site 8 - x2: 202
+Site 9 - x2: 202
+Site 10 - x2: 202
+x3: 30
+x5: 50
+x2: 20
+T1 commited. 
+Sites Affected: 3
+T1 commited. 
+x1: 10
+x2: 20
+x3: 30
+T2 commited. 
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited. 
+x2: 20
+x1: 10
+T2 commited. 
+Site 1 - x2: 102
+Site 2 - x1: 101, x2: 102
+Site 3 - x2: 102
+Site 4 - x2: 102
+Site 5 - x2: 102
+Site 6 - x2: 102
+Site 7 - x2: 102
+Site 8 - x2: 102
+Site 9 - x2: 102
+Site 10 - x2: 102
+Sites Affected: 3
+T1 commited. 
+x1: 10
+x2: 20
+x3: 30
+T2 commited. 
+x3: 33
+T3 commited. 
+x1: 10
+T1 commited. 
+Sites Affected: 1, 2, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+Site 1 - x8: 88
+Site 2 - x8: 88
+Site 3 - 
+Site 4 - 
+Site 5 - x8: 88
+Site 6 - x8: 88
+Site 7 - x8: 88
+Site 8 - x8: 88
+Site 9 - x8: 88
+Site 10 - x8: 88
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+x3: 30
+Sites Affected: 5
+T1 commited. 
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited. 
+x1: 10
+T3 aborted. 
+x1: 10
+T2 aborted. 
+error: transaction terminated: W(2, 1, 21)
+error: transaction terminated: W(3, 1, 31)
+x1: 10
+Sites Affected: 1
+T1 blocked at tick 6 due to a read lock conflict on x1 held by T3.
+T1 blocked at tick 6 due to a read lock conflict on x1 held by T1.
+T1 blocked at tick 6 due to a read lock conflict on x1 held by T2.
+x1: 11
+T1 commited. 
+error: transaction terminated: R(2, 1)
+error: transaction terminated: R(3, 1)
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 3
+x2: 20
+T2 aborted. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+x2: 20
+Sites Affected: 2, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 10 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 10 due to a read lock conflict on x2 held by T1.
+x3: 30
+T1 commited. 
+x3: 30
+T3 commited. 
+Site 1 - 
+Site 2 - x2: 10
+Site 3 - 
+Site 4 - 
+Site 5 - x2: 10
+Site 6 - x2: 10
+Site 7 - x2: 10
+Site 8 - x2: 10
+Site 9 - x2: 10
+Site 10 - x2: 10
+Site 1 - 
+Site 2 - x2: 10
+Site 3 - 
+Site 4 - 
+Site 5 - x2: 10
+Site 6 - x2: 10
+Site 7 - x2: 10
+Site 8 - x2: 10
+Site 9 - x2: 10
+Site 10 - x2: 10
+Site 1 - 
+Site 2 - x2: 10
+Site 3 - 
+Site 4 - 
+Site 5 - x2: 10
+Site 6 - x2: 10
+Site 7 - x2: 10
+Site 8 - x2: 10
+Site 9 - x2: 10
+Site 10 - x2: 10
+Sites Affected: 2
+T5 blocked at tick 32 due to a read lock conflict on x2 held by T4.
+T5 blocked at tick 33 due to a read lock conflict on x2 held by T4.
+T5 blocked at tick 34 due to a read lock conflict on x2 held by T4.
+T5 blocked at tick 35 due to a read lock conflict on x2 held by T4.
+T5 blocked at tick 36 due to a read lock conflict on x2 held by T4.
+T5 blocked at tick 37 due to a read lock conflict on x2 held by T4.
+T5 aborted. site failure.
+Site 1 - 
+Site 2 - x2: 10
+Site 3 - 
+Site 4 - 
+Site 5 - x2: 10
+Site 6 - x2: 10
+Site 7 - x2: 10
+Site 8 - x2: 10
+Site 9 - x2: 10
+Site 10 - x2: 10
+x2: 10
+x1: 10
+T4 aborted. site failure.
+Sites Affected: 4
+T7 commited. 
+x4: 40
+T6 commited. 
+Site 1 - 
+Site 2 - x2: 10
+Site 3 - 
+Site 4 - x4: 75
+Site 5 - x2: 10
+Site 6 - x2: 10
+Site 7 - x2: 10
+Site 8 - x2: 10
+Site 9 - x2: 10
+Site 10 - x2: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 aborted. site failure.
+x3: 30
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited. 
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited. 
+x2: 20
+x1: 10
+T2 commited. 
+Site 1 - x2: 102
+Site 2 - x1: 101, x2: 102
+Site 3 - x2: 102
+Site 4 - x2: 102
+Site 5 - x2: 102
+Site 6 - x2: 102
+Site 7 - x2: 102
+Site 8 - x2: 102
+Site 9 - x2: 102
+Site 10 - x2: 102
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x4 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 44
+T3 commited. 
+x2: 22
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 4 due to a write lock conflict on x2 held by T3.
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T1 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T2 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T2 commited. 
+x5: 50
+Sites Affected: 1
+T5 blocked at tick 15 due to a read lock conflict on x1 held by T1.
+T5 blocked at tick 16 due to a read lock conflict on x1 held by T1.
+T5 blocked at tick 17 due to a read lock conflict on x1 held by T1.
+T5 aborted. 
+x4: 40
+Sites Affected: 5
+T4 blocked at tick 17 due to a read lock conflict on x5 held by T5.
+T4 commited. 
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 14 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 15 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 16 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 17 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 18 due to a read lock conflict on x4 held by T4.
+T3 aborted. site failure.
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 13 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 14 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 15 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 16 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 17 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 18 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 19 due to a read lock conflict on x3 held by T3.
+T2 commited. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 12 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 13 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 14 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 15 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 16 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 17 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 18 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 19 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 20 due to a read lock conflict on x2 held by T2.
+T1 commited. 
+Site 1 - x2: 10
+Site 2 - x2: 10
+Site 3 - x2: 10
+Site 4 - x2: 10, x3: 20
+Site 5 - x2: 10
+Site 6 - x2: 10, x5: 40
+Site 7 - x2: 10
+Site 8 - x2: 10
+Site 9 - x2: 10
+Site 10 - x2: 10
+x5: 50
+Sites Affected: 1
+T5 commited. 
+x4: 40
+Sites Affected: 5
+T4 commited. 
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 14 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 15 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 16 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 17 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 18 due to a read lock conflict on x4 held by T4.
+T3 aborted. site failure.
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 13 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 14 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 15 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 16 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 17 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 18 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 19 due to a read lock conflict on x3 held by T3.
+T2 commited. 
+x6: 60
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 12 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 13 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 14 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 15 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 16 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 17 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 18 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 19 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 20 due to a read lock conflict on x2 held by T2.
+T1 commited. 
+x2: 20
+T1 commited. 
+Sites Affected: 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Site 1 - 
+Site 2 - x2: 202
+Site 3 - x2: 202
+Site 4 - x2: 202
+Site 5 - x2: 202
+Site 6 - x2: 202
+Site 7 - x2: 202
+Site 8 - x2: 202
+Site 9 - x2: 202
+Site 10 - x2: 202
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited. 
+Site 1 - x2: 302
+Site 2 - x2: 302
+Site 3 - x2: 302
+Site 4 - x2: 302
+Site 5 - x2: 302
+Site 6 - x2: 302
+Site 7 - x2: 302
+Site 8 - x2: 302
+Site 9 - x2: 302
+Site 10 - x2: 302
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x4 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 44
+T3 commited. 
+x2: 22
+T1 commited. 
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+x1: 10
+x5: 50
+T1 aborted. site failure.
+Sites Affected: 1
+T1 aborted. read operation has no available sites
+T2 blocked at tick 6 due to a write lock conflict on x1 held by T1.
+T2 blocked at tick 7 due to a write lock conflict on x1 held by T1.
+x1: 10
+T2 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x4 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 44
+T3 commited. 
+x2: 22
+T1 commited. 
+Site 1 - x2: 22, x4: 44
+Site 2 - x2: 22, x4: 44
+Site 3 - x2: 22, x4: 44
+Site 4 - x2: 22, x4: 44
+Site 5 - x2: 22, x4: 44
+Site 6 - x2: 22, x4: 44
+Site 7 - x2: 22, x4: 44
+Site 8 - x2: 22, x4: 44
+Site 9 - x2: 22, x4: 44
+Site 10 - x2: 22, x4: 44
+x1: 10
+T2 commited. 
+x1: 10
+T1 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1
+T3 blocked at tick 6 due to a read lock conflict on x1 held by T2.
+T3 blocked at tick 7 due to a read lock conflict on x1 held by T2.
+T3 blocked at tick 7 due to a read lock conflict on x1 held by T1.
+T3 blocked at tick 8 due to a read lock conflict on x1 held by T2.
+T3 blocked at tick 8 due to a read lock conflict on x1 held by T1.
+T3 blocked at tick 9 due to a read lock conflict on x1 held by T1.
+T3 blocked at tick 10 due to a read lock conflict on x1 held by T1.
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted. site failure.
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 7 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 8 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 9 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 10 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 9 due to a write lock conflict on x4 held by T1.
+T3 blocked at tick 10 due to a write lock conflict on x4 held by T1.
+T3 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T3 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T4 blocked at tick 10 due to a write lock conflict on x4 held by T1.
+T4 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T4 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T4 blocked at tick 13 due to a write lock conflict on x4 held by T3.
+T4 blocked at tick 14 due to a write lock conflict on x4 held by T3.
+T4 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T5 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T5 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T5 blocked at tick 13 due to a write lock conflict on x4 held by T3.
+T5 blocked at tick 14 due to a write lock conflict on x4 held by T3.
+T5 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sites Affected: 1
+T2 blocked at tick 5 due to a write lock conflict on x1 held by T1.
+T2 aborted. 
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 4 due to a write lock conflict on x2 held by T2.
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T2.
+T1 commited. 
+Site 1 - x2: 102
+Site 2 - x1: 101, x2: 102
+Site 3 - x2: 102
+Site 4 - x2: 102
+Site 5 - x2: 102
+Site 6 - x2: 102
+Site 7 - x2: 102
+Site 8 - x2: 102
+Site 9 - x2: 102
+Site 10 - x2: 102
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited. 
+x2: 20
+x1: 10
+T2 commited. 
+Site 1 - x2: 102
+Site 2 - x1: 101, x2: 102
+Site 3 - x2: 102
+Site 4 - x2: 102
+Site 5 - x2: 102
+Site 6 - x2: 102
+Site 7 - x2: 102
+Site 8 - x2: 102
+Site 9 - x2: 102
+Site 10 - x2: 102
+Sites Affected: 3
+T1 commited. 
+x1: 10
+x2: 20
+x3: 30
+T2 commited. 
+x3: 33
+T3 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - x3: 33
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 3
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x3 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x3 held by T2.
+T3 aborted. site failure.
+x2: 20
+T1 commited. 
+x5: 50
+Sites Affected: 1
+T5 blocked at tick 14 due to a read lock conflict on x1 held by T1.
+T5 aborted. 
+x4: 40
+Sites Affected: 5
+T4 blocked at tick 13 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 14 due to a read lock conflict on x5 held by T5.
+T4 commited. 
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 12 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 13 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 14 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 15 due to a read lock conflict on x4 held by T4.
+T3 commited. 
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 11 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 12 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 13 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 14 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 15 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 16 due to a read lock conflict on x3 held by T3.
+T2 commited. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 10 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 11 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 12 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 13 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 14 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 15 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 16 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 17 due to a read lock conflict on x2 held by T2.
+T1 commited. 
+Sites Affected: 3
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x3 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x3 held by T2.
+T3 aborted. site failure.
+x2: 20
+T1 commited. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 14 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 15 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 16 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 17 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 18 due to a read lock conflict on x2 held by T2.
+T1 aborted. 
+x3: 30
+x6: 60
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 16 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 17 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 18 due to a read lock conflict on x4 held by T4.
+T3 aborted. 
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 15 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 16 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 17 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 18 due to a read lock conflict on x3 held by T3.
+T2 commited. 
+x6: 60
+Sites Affected: 1
+T6 blocked at tick 13 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 14 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 15 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 16 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 17 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 18 due to a read lock conflict on x1 held by T1.
+T6 commited. 
+Site 1 - 
+Site 2 - x1: 61
+Site 3 - 
+Site 4 - x3: 23
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+x5: 50
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T5 blocked at tick 18 due to a read lock conflict on x6 held by T6.
+T5 blocked at tick 18 due to a read lock conflict on x6 held by T3.
+T5 blocked at tick 19 due to a read lock conflict on x6 held by T6.
+T5 blocked at tick 20 due to a read lock conflict on x6 held by T6.
+T5 blocked at tick 21 due to a read lock conflict on x6 held by T6.
+T5 blocked at tick 22 due to a read lock conflict on x6 held by T6.
+T5 blocked at tick 23 due to a read lock conflict on x6 held by T6.
+T5 blocked at tick 24 due to a read lock conflict on x6 held by T6.
+T5 commited. 
+x4: 40
+Sites Affected: 5
+T4 blocked at tick 17 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 18 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 19 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 20 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 21 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 22 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 23 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 24 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 25 due to a read lock conflict on x5 held by T5.
+T4 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x2: 102
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x2: 202
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x4 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 44
+T3 commited. 
+x2: 22
+T1 commited. 
+Site 1 - x2: 22, x4: 44
+Site 2 - x2: 22, x4: 44
+Site 3 - x2: 22, x4: 44
+Site 4 - x2: 22, x4: 44
+Site 5 - x2: 22, x4: 44
+Site 6 - x2: 22, x4: 44
+Site 7 - x2: 22, x4: 44
+Site 8 - x2: 22, x4: 44
+Site 9 - x2: 22, x4: 44
+Site 10 - x2: 22, x4: 44
+Sites Affected: 3
+T1 commited. 
+x1: 10
+x2: 20
+x3: 30
+T2 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - x3: 33
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+x2: 20
+T1 commited. 
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 7 due to a read lock conflict on x2 held by T3.
+T3 blocked at tick 7 due to a write lock conflict on x2 held by T2.
+T3 aborted. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 5 due to a read lock conflict on x2 held by T3.
+T2 blocked at tick 5 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 6 due to a read lock conflict on x2 held by T3.
+T2 blocked at tick 6 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 7 due to a read lock conflict on x2 held by T3.
+T2 commited. 
+Site 1 - x2: 202
+Site 2 - x2: 202
+Site 3 - x2: 202
+Site 4 - x2: 202
+Site 5 - x2: 202
+Site 6 - x2: 202
+Site 7 - x2: 202
+Site 8 - x2: 202
+Site 9 - x2: 202
+Site 10 - x2: 202
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sites Affected: 1
+T2 blocked at tick 5 due to a write lock conflict on x1 held by T1.
+T2 aborted. 
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 4 due to a write lock conflict on x2 held by T2.
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T2.
+T1 commited. 
+Site 1 - x2: 102
+Site 2 - x1: 101, x2: 102
+Site 3 - x2: 102
+Site 4 - x2: 102
+Site 5 - x2: 102
+Site 6 - x2: 102
+Site 7 - x2: 102
+Site 8 - x2: 102
+Site 9 - x2: 102
+Site 10 - x2: 102
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x4 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 44
+T3 commited. 
+x2: 22
+T1 commited. 
+x1: 10
+T1 commited. 
+x1: 10
+T2 commited. 
+Sites Affected: 1
+T3 blocked at tick 6 due to a read lock conflict on x1 held by T2.
+T3 blocked at tick 7 due to a read lock conflict on x1 held by T2.
+T3 blocked at tick 8 due to a read lock conflict on x1 held by T2.
+T3 blocked at tick 9 due to a read lock conflict on x1 held by T2.
+T3 commited. 
+Site 1 - 
+Site 2 - x1: 2
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+x3: 30
+Sites Affected: 5
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted. site failure.
+Sites Affected: 7
+T2 blocked at tick 10 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+x4: 40
+x7: 800
+T2 commited. 
+T3 blocked at tick 7 due to a write lock conflict on x7 held by T2.
+T3 blocked at tick 8 due to a write lock conflict on x7 held by T2.
+T3 blocked at tick 9 due to a write lock conflict on x7 held by T2.
+T3 blocked at tick 10 due to a write lock conflict on x7 held by T2.
+T3 blocked at tick 11 due to a write lock conflict on x7 held by T2.
+T3 blocked at tick 12 due to a write lock conflict on x7 held by T2.
+T3 blocked at tick 13 due to a write lock conflict on x7 held by T2.
+T3 blocked at tick 14 due to a write lock conflict on x7 held by T2.
+T3 blocked at tick 15 due to a write lock conflict on x7 held by T2.
+x7: 800
+T3 commited. 
+T5 blocked at tick 9 due to a write lock conflict on x4 held by T1.
+T5 blocked at tick 10 due to a write lock conflict on x4 held by T1.
+T5 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T5 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+Sites Affected: 7
+x4: 40
+T5 blocked at tick 13 due to a write lock conflict on x7 held by T2.
+T5 blocked at tick 14 due to a write lock conflict on x7 held by T2.
+T5 blocked at tick 15 due to a write lock conflict on x7 held by T2.
+T5 blocked at tick 16 due to a read lock conflict on x7 held by T3.
+T5 blocked at tick 17 due to a read lock conflict on x7 held by T3.
+T5 commited. 
+x4: 40
+x7: 70
+x7: 70
+T4 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - x7: 900
+Site 9 - 
+Site 10 - 
+Sites Affected: 1
+x1: 15
+T1 commited. 
+T2 blocked at tick 3 due to a write lock conflict on x1 held by T1.
+T2 blocked at tick 4 due to a write lock conflict on x1 held by T1.
+T2 blocked at tick 5 due to a write lock conflict on x1 held by T1.
+x1: 15
+T2 commited. 
+Site 1 - 
+Site 2 - x1: 15
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted. site failure.
+Sites Affected: 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited. 
+x5: 50
+Sites Affected: 1
+T5 blocked at tick 14 due to a read lock conflict on x1 held by T1.
+T5 aborted. 
+x4: 40
+Sites Affected: 5
+T4 blocked at tick 13 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 14 due to a read lock conflict on x5 held by T5.
+T4 commited. 
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 12 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 13 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 14 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 15 due to a read lock conflict on x4 held by T4.
+T3 commited. 
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 11 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 12 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 13 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 14 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 15 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 16 due to a read lock conflict on x3 held by T3.
+T2 commited. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 10 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 11 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 12 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 13 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 14 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 15 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 16 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 17 due to a read lock conflict on x2 held by T2.
+T1 commited. 
+Sites Affected: 1
+x1: 15
+Sites Affected: 1
+T1 commited. 
+T2 blocked at tick 3 due to a write lock conflict on x1 held by T1.
+T2 blocked at tick 4 due to a write lock conflict on x1 held by T1.
+T2 blocked at tick 5 due to a write lock conflict on x1 held by T1.
+T2 blocked at tick 6 due to a write lock conflict on x1 held by T1.
+x1: 41
+T2 commited. 
+Site 1 - 
+Site 2 - x1: 41
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+x2: 20
+T1 commited. 
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x4 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 44
+T3 commited. 
+x2: 22
+T1 commited. 
+x6: 60
+Sites Affected: 1
+T6 blocked at tick 13 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 14 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 15 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 16 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 17 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 18 due to a read lock conflict on x1 held by T1.
+T6 aborted. 
+x5: 50
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T5 blocked at tick 18 due to a read lock conflict on x6 held by T6.
+T5 blocked at tick 18 due to a read lock conflict on x6 held by T3.
+T5 aborted. 
+x4: 40
+Sites Affected: 5
+T4 blocked at tick 17 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 18 due to a read lock conflict on x5 held by T5.
+T4 commited. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 14 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 15 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 16 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 17 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 18 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 19 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 20 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 21 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 22 due to a read lock conflict on x2 held by T2.
+T1 commited. 
+x3: 30
+x6: 60
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 16 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 17 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 18 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 19 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 20 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 21 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 22 due to a read lock conflict on x4 held by T4.
+T3 commited. 
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 15 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 16 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 17 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 18 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 19 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 20 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 21 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 22 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 23 due to a read lock conflict on x3 held by T3.
+T2 commited. 
+Site 1 - x4: 34
+Site 2 - x2: 12, x4: 34
+Site 3 - x2: 12, x4: 34
+Site 4 - x2: 12, x3: 23, x4: 34
+Site 5 - x2: 12, x4: 34
+Site 6 - x2: 12, x4: 34, x5: 45
+Site 7 - x2: 12, x4: 34
+Site 8 - x2: 12, x4: 34
+Site 9 - x2: 12, x4: 34
+Site 10 - x2: 12, x4: 34
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 4 due to a read lock conflict on x2 held by T2.
+T2 blocked at tick 4 due to a read lock conflict on x2 held by T1.
+T2 aborted. 
+x2: 20
+T1 commited. 
+Sites Affected: 3
+T1 commited. 
+x1: 10
+x2: 20
+x3: 30
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x4 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 44
+T3 commited. 
+x2: 22
+T1 commited. 
+x1: 10
+x2: 20
+x3: 30
+x3: 30
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x2: 200
+T1 commited. 
+Site 1 - x2: 200
+Site 2 - x2: 200
+Site 3 - x2: 200
+Site 4 - x2: 200
+Site 5 - x2: 200
+Site 6 - x2: 200
+Site 7 - x2: 200
+Site 8 - x2: 200
+Site 9 - x2: 200
+Site 10 - x2: 200
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 3 due to a write lock conflict on x2 held by T1.
+T2 blocked at tick 4 due to a write lock conflict on x2 held by T1.
+T2 blocked at tick 5 due to a write lock conflict on x2 held by T1.
+T2 blocked at tick 6 due to a write lock conflict on x2 held by T1.
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 4 due to a write lock conflict on x2 held by T3.
+T2 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T2 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T1 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T1 commited. 
+x1: 10
+T1 commited. 
+Sites Affected: 1, 2, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+Site 1 - x8: 88
+Site 2 - x8: 88
+Site 3 - 
+Site 4 - 
+Site 5 - x8: 88
+Site 6 - x8: 88
+Site 7 - x8: 88
+Site 8 - x8: 88
+Site 9 - x8: 88
+Site 10 - x8: 88
+Sites Affected: 3
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x3 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x3 held by T2.
+T3 aborted. site failure.
+x2: 20
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sites Affected: 1
+T2 blocked at tick 5 due to a write lock conflict on x1 held by T1.
+T2 aborted. 
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 4 due to a write lock conflict on x2 held by T2.
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T2.
+T1 commited. 
+Site 1 - x2: 102
+Site 2 - x1: 101, x2: 102
+Site 3 - x2: 102
+Site 4 - x2: 102
+Site 5 - x2: 102
+Site 6 - x2: 102
+Site 7 - x2: 102
+Site 8 - x2: 102
+Site 9 - x2: 102
+Site 10 - x2: 102
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 4 due to a read lock conflict on x2 held by T2.
+T2 blocked at tick 4 due to a read lock conflict on x2 held by T1.
+T2 aborted. 
+x2: 20
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x4 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 44
+T3 commited. 
+x2: 22
+T1 commited. 
+x5: 50
+Sites Affected: 1
+T5 commited. 
+x4: 40
+Sites Affected: 5
+T4 commited. 
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 14 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 15 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 16 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 17 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 18 due to a read lock conflict on x4 held by T4.
+T3 aborted. site failure.
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 13 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 14 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 15 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 16 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 17 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 18 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 19 due to a read lock conflict on x3 held by T3.
+T2 commited. 
+x6: 60
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 12 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 13 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 14 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 15 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 16 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 17 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 18 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 19 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 20 due to a read lock conflict on x2 held by T2.
+T1 commited. 
+x5: 50
+Sites Affected: 1
+T5 blocked at tick 14 due to a read lock conflict on x1 held by T1.
+T5 aborted. 
+x4: 40
+Sites Affected: 5
+T4 blocked at tick 13 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 14 due to a read lock conflict on x5 held by T5.
+T4 commited. 
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 12 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 13 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 14 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 15 due to a read lock conflict on x4 held by T4.
+T3 commited. 
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 11 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 12 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 13 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 14 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 15 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 16 due to a read lock conflict on x3 held by T3.
+T2 commited. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 10 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 11 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 12 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 13 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 14 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 15 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 16 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 17 due to a read lock conflict on x2 held by T2.
+T1 commited. 
+Site 1 - x2: 10, x4: 30
+Site 2 - x2: 10, x4: 30
+Site 3 - x2: 10, x4: 30
+Site 4 - x2: 10, x3: 20, x4: 30
+Site 5 - x2: 10, x4: 30
+Site 6 - x2: 10, x4: 30, x5: 40
+Site 7 - x2: 10, x4: 30
+Site 8 - x2: 10, x4: 30
+Site 9 - x2: 10, x4: 30
+Site 10 - x2: 10, x4: 30
+x2: 20
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 4 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 5 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 5 due to a read lock conflict on x2 held by T3.
+T2 blocked at tick 6 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 6 due to a read lock conflict on x2 held by T3.
+T2 blocked at tick 7 due to a read lock conflict on x2 held by T3.
+T2 blocked at tick 8 due to a read lock conflict on x2 held by T3.
+T2 blocked at tick 9 due to a read lock conflict on x2 held by T3.
+T2 aborted. site failure.
+x2: 20
+T3 commited. 
+x1: 10
+T1 commited. 
+x1: 10
+T2 commited. 
+x1: 10
+T3 commited. 
+x1: 10
+T5 commited. 
+Sites Affected: 3
+T1 commited. 
+x1: 10
+x2: 20
+x3: 30
+T2 commited. 
+x3: 33
+T3 commited. 
+x1: 10
+T2 aborted. 
+x1: 10
+Sites Affected: 1
+T1 blocked at tick 4 due to a read lock conflict on x1 held by T1.
+T1 blocked at tick 4 due to a read lock conflict on x1 held by T2.
+T1 commited. 
+Site 1 - 
+Site 2 - x1: 73
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 4 due to a read lock conflict on x2 held by T2.
+T2 blocked at tick 4 due to a write lock conflict on x2 held by T1.
+T2 aborted. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 3 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 4 due to a read lock conflict on x2 held by T2.
+T1 commited. 
+Site 1 - x2: 202
+Site 2 - x2: 202
+Site 3 - x2: 202
+Site 4 - x2: 202
+Site 5 - x2: 202
+Site 6 - x2: 202
+Site 7 - x2: 202
+Site 8 - x2: 202
+Site 9 - x2: 202
+Site 10 - x2: 202
+x1: 10
+T1 commited. 
+x1: 10
+T2 commited. 
+x1: 10
+T3 commited. 
+Sites Affected: 3
+T1 commited. 
+x1: 10
+x2: 20
+x3: 30
+T2 commited. 
+x3: 33
+T3 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - x3: 33
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x4 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 44
+T3 commited. 
+x2: 22
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 aborted. site failure.
+x3: 30
+Sites Affected: 5
+T1 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - x5: 91
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+x6: 60
+Sites Affected: 1
+T6 blocked at tick 13 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 14 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 15 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 16 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 17 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 18 due to a read lock conflict on x1 held by T1.
+T6 aborted. 
+x5: 50
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T5 blocked at tick 18 due to a read lock conflict on x6 held by T3.
+T5 blocked at tick 18 due to a read lock conflict on x6 held by T6.
+T5 aborted. 
+x4: 40
+Sites Affected: 5
+T4 blocked at tick 17 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 18 due to a read lock conflict on x5 held by T5.
+T4 commited. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 14 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 15 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 16 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 17 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 18 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 19 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 20 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 21 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 22 due to a read lock conflict on x2 held by T2.
+T1 commited. 
+x3: 30
+x6: 60
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 16 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 17 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 18 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 19 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 20 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 21 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 22 due to a read lock conflict on x4 held by T4.
+T3 commited. 
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 15 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 16 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 17 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 18 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 19 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 20 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 21 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 22 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 23 due to a read lock conflict on x3 held by T3.
+T2 commited. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 14 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 15 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 16 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 17 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 18 due to a read lock conflict on x2 held by T2.
+T1 aborted. 
+x3: 30
+x6: 60
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 16 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 17 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 18 due to a read lock conflict on x4 held by T4.
+T3 aborted. 
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 15 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 16 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 17 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 18 due to a read lock conflict on x3 held by T3.
+T2 commited. 
+x6: 60
+Sites Affected: 1
+T6 blocked at tick 13 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 14 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 15 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 16 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 17 due to a read lock conflict on x1 held by T1.
+T6 blocked at tick 18 due to a read lock conflict on x1 held by T1.
+T6 commited. 
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 25 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 26 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 27 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 28 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 29 due to a read lock conflict on x3 held by T3.
+T2 aborted. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 20 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 21 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 22 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 23 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 24 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 25 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 26 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 27 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 28 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 29 due to a read lock conflict on x2 held by T2.
+T1 aborted. 
+x4: 40
+Sites Affected: 5
+T4 blocked at tick 28 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 29 due to a read lock conflict on x5 held by T5.
+T4 aborted. 
+x9: 90
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T9 blocked at tick 30 due to a read lock conflict on x10 held by T10.
+T9 blocked at tick 31 due to a read lock conflict on x10 held by T10.
+T9 aborted. 
+x8: 80
+x6: 60
+Sites Affected: 9
+T8 blocked at tick 26 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 27 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 28 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 29 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 30 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 31 due to a read lock conflict on x9 held by T9.
+T8 commited. 
+x10: 100
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T10 blocked at tick 31 due to a read lock conflict on x6 held by T8.
+T10 blocked at tick 31 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 32 due to a read lock conflict on x6 held by T8.
+T10 blocked at tick 32 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 33 due to a read lock conflict on x6 held by T8.
+T10 blocked at tick 33 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 34 due to a read lock conflict on x6 held by T8.
+T10 blocked at tick 34 due to a read lock conflict on x6 held by T6.
+T10 commited. 
+x7: 70
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T7 blocked at tick 24 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 25 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 26 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 27 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 28 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 29 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 30 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 31 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 32 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 33 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 34 due to a read lock conflict on x8 held by T8.
+T7 commited. 
+x6: 60
+Sites Affected: 7
+T6 blocked at tick 23 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 24 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 25 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 26 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 27 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 28 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 29 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 30 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 31 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 32 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 33 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 34 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 35 due to a read lock conflict on x7 held by T7.
+T6 commited. 
+x3: 30
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 27 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 28 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 29 due to a read lock conflict on x4 held by T4.
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 aborted. site failure.
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited. 
+x5: 50
+Sites Affected: 1
+T5 blocked at tick 14 due to a read lock conflict on x1 held by T1.
+T5 aborted. 
+x4: 40
+Sites Affected: 5
+T4 blocked at tick 13 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 14 due to a read lock conflict on x5 held by T5.
+T4 commited. 
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 12 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 13 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 14 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 15 due to a read lock conflict on x4 held by T4.
+T3 commited. 
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 11 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 12 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 13 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 14 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 15 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 16 due to a read lock conflict on x3 held by T3.
+T2 commited. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 10 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 11 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 12 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 13 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 14 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 15 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 16 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 17 due to a read lock conflict on x2 held by T2.
+T1 commited. 
+x1: 10
+T9 aborted. 
+x1: 10
+T8 aborted. 
+x1: 10
+T7 aborted. 
+x1: 10
+T6 aborted. 
+x1: 10
+T5 aborted. 
+x1: 10
+T4 aborted. 
+x1: 10
+T3 aborted. 
+x1: 10
+T2 aborted. 
+error: transaction terminated: W(2, 1, 21)
+error: transaction terminated: W(3, 1, 31)
+error: transaction terminated: W(4, 1, 41)
+error: transaction terminated: W(5, 1, 51)
+error: transaction terminated: W(6, 1, 61)
+error: transaction terminated: W(7, 1, 71)
+error: transaction terminated: W(8, 1, 81)
+error: transaction terminated: W(9, 1, 91)
+x1: 10
+Sites Affected: 1
+T1 blocked at tick 18 due to a read lock conflict on x1 held by T4.
+T1 blocked at tick 18 due to a read lock conflict on x1 held by T5.
+T1 blocked at tick 18 due to a read lock conflict on x1 held by T1.
+T1 blocked at tick 18 due to a read lock conflict on x1 held by T6.
+T1 blocked at tick 18 due to a read lock conflict on x1 held by T7.
+T1 blocked at tick 18 due to a read lock conflict on x1 held by T8.
+T1 blocked at tick 18 due to a read lock conflict on x1 held by T9.
+T1 blocked at tick 18 due to a read lock conflict on x1 held by T2.
+T1 blocked at tick 18 due to a read lock conflict on x1 held by T3.
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 aborted. site failure.
+x3: 30
+Sites Affected: 5
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x4 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 44
+T3 commited. 
+x2: 22
+T1 commited. 
+x2: 20
+T1 commited. 
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1
+T1 aborted. site failure.
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 25 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 26 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 27 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 28 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 29 due to a read lock conflict on x3 held by T3.
+T2 aborted. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 20 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 21 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 22 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 23 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 24 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 25 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 26 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 27 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 28 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 29 due to a read lock conflict on x2 held by T2.
+T1 aborted. 
+x4: 40
+Sites Affected: 5
+T4 blocked at tick 28 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 29 due to a read lock conflict on x5 held by T5.
+T4 aborted. 
+x9: 90
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T9 blocked at tick 30 due to a read lock conflict on x10 held by T10.
+T9 blocked at tick 31 due to a read lock conflict on x10 held by T10.
+T9 blocked at tick 32 due to a read lock conflict on x10 held by T10.
+T9 aborted. 
+x8: 80
+x6: 60
+Sites Affected: 9
+T8 blocked at tick 26 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 26 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 27 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 27 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 28 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 28 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 29 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 29 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 30 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 30 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 31 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 31 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 32 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 32 due to a read lock conflict on x9 held by T10.
+T8 aborted. 
+x7: 70
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T7 blocked at tick 24 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 25 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 26 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 27 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 28 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 29 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 30 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 31 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 32 due to a read lock conflict on x8 held by T8.
+T7 commited. 
+x6: 60
+Sites Affected: 7
+T6 blocked at tick 31 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 32 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 33 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 34 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 35 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 36 due to a read lock conflict on x7 held by T7.
+T6 commited. 
+x10: 100
+x9: 90
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T10 blocked at tick 32 due to a read lock conflict on x6 held by T8.
+T10 blocked at tick 32 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 33 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 34 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 35 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 36 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 37 due to a read lock conflict on x6 held by T6.
+T10 commited. 
+x3: 30
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 27 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 28 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 29 due to a read lock conflict on x4 held by T4.
+T3 commited. 
+x5: 50
+Sites Affected: 1
+T5 blocked at tick 14 due to a read lock conflict on x1 held by T1.
+T5 aborted. 
+x4: 40
+Sites Affected: 5
+T4 blocked at tick 13 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 14 due to a read lock conflict on x5 held by T5.
+T4 commited. 
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 12 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 13 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 14 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 15 due to a read lock conflict on x4 held by T4.
+T3 commited. 
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 11 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 12 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 13 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 14 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 15 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 16 due to a read lock conflict on x3 held by T3.
+T2 commited. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 10 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 11 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 12 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 13 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 14 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 15 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 16 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 17 due to a read lock conflict on x2 held by T2.
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 4 due to a write lock conflict on x2 held by T3.
+T2 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T2 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T1 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T1 commited. 
+x5: 50
+Sites Affected: 1
+T5 commited. 
+x4: 40
+Sites Affected: 5
+T4 commited. 
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 14 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 15 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 16 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 17 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 18 due to a read lock conflict on x4 held by T4.
+T3 aborted. site failure.
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 13 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 14 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 15 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 16 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 17 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 18 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 19 due to a read lock conflict on x3 held by T3.
+T2 commited. 
+x6: 60
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 12 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 13 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 14 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 15 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 16 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 17 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 18 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 19 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 20 due to a read lock conflict on x2 held by T2.
+T1 commited. 
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 4 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 4 due to a read lock conflict on x2 held by T2.
+T2 aborted. 
+x2: 20
+T1 commited. 
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 25 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 26 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 27 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 28 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 29 due to a read lock conflict on x3 held by T3.
+T2 aborted. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 20 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 21 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 22 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 23 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 24 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 25 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 26 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 27 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 28 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 29 due to a read lock conflict on x2 held by T2.
+T1 aborted. 
+x4: 40
+Sites Affected: 5
+T4 blocked at tick 28 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 29 due to a read lock conflict on x5 held by T5.
+T4 aborted. 
+x9: 90
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T9 blocked at tick 30 due to a read lock conflict on x10 held by T10.
+T9 blocked at tick 31 due to a read lock conflict on x10 held by T10.
+T9 blocked at tick 32 due to a read lock conflict on x10 held by T10.
+T9 aborted. 
+x7: 70
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T7 blocked at tick 24 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 25 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 26 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 27 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 28 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 29 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 30 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 31 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 32 due to a read lock conflict on x8 held by T8.
+T7 aborted. 
+x6: 60
+Sites Affected: 7
+T6 blocked at tick 31 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 32 due to a read lock conflict on x7 held by T7.
+T6 aborted. 
+x8: 80
+x6: 60
+Sites Affected: 9
+T8 blocked at tick 26 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 26 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 27 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 27 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 28 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 28 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 29 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 29 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 30 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 30 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 31 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 31 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 32 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 32 due to a read lock conflict on x9 held by T10.
+T8 aborted. 
+x10: 100
+x9: 90
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T10 blocked at tick 32 due to a read lock conflict on x6 held by T8.
+T10 blocked at tick 32 due to a read lock conflict on x6 held by T6.
+T10 commited. 
+x3: 30
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 27 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 28 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 29 due to a read lock conflict on x4 held by T4.
+T3 commited. 
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x5: 50
+T1 aborted. site failure.
+x1: 10
+T1 commited. 
+Sites Affected: 1, 2, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+Site 1 - x8: 88
+Site 2 - x8: 88
+Site 3 - 
+Site 4 - 
+Site 5 - x8: 88
+Site 6 - x8: 88
+Site 7 - x8: 88
+Site 8 - x8: 88
+Site 9 - x8: 88
+Site 10 - x8: 88
+Sites Affected: 3
+T1 commited. 
+x1: 10
+x2: 20
+x3: 30
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 5 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 6 due to a read lock conflict on x2 held by T1.
+T2 aborted. 
+x1: 10
+x2: 20
+T1 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 40
+T1 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted. site failure.
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 7 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 8 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 9 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 10 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 13 due to a write lock conflict on x4 held by T1.
+x4: 44
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 10 due to a write lock conflict on x4 held by T1.
+T3 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T3 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T3 blocked at tick 13 due to a write lock conflict on x4 held by T1.
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T4 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T4 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T4 blocked at tick 13 due to a write lock conflict on x4 held by T1.
+T4 blocked at tick 14 due to a write lock conflict on x4 held by T3.
+T4 blocked at tick 15 due to a write lock conflict on x4 held by T3.
+T4 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T5 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T5 blocked at tick 13 due to a write lock conflict on x4 held by T1.
+T5 blocked at tick 14 due to a write lock conflict on x4 held by T3.
+T5 blocked at tick 15 due to a write lock conflict on x4 held by T3.
+T5 commited. 
+Site 1 - x4: 77
+Site 2 - x4: 77
+Site 3 - x4: 77
+Site 4 - x4: 77
+Site 5 - x4: 77
+Site 6 - x4: 77
+Site 7 - x4: 77
+Site 8 - x4: 77
+Site 9 - x4: 77
+Site 10 - x4: 77
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited. 
+x2: 20
+x1: 10
+T2 commited. 
+Site 1 - x2: 102
+Site 2 - x1: 101, x2: 102
+Site 3 - x2: 102
+Site 4 - x2: 102
+Site 5 - x2: 102
+Site 6 - x2: 102
+Site 7 - x2: 102
+Site 8 - x2: 102
+Site 9 - x2: 102
+Site 10 - x2: 102
+x2: 20
+T1 commited. 
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Site 1 - x2: 10
+Site 2 - x2: 10
+Site 3 - x2: 10
+Site 4 - x2: 10
+Site 5 - x2: 10
+Site 6 - x2: 10
+Site 7 - x2: 10
+Site 8 - x2: 10
+Site 9 - x2: 10
+Site 10 - x2: 10
+x2: 20
+T1 commited. 
+x2: 20
+T3 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 4 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 5 due to a read lock conflict on x2 held by T3.
+T2 blocked at tick 5 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 6 due to a read lock conflict on x2 held by T3.
+T2 blocked at tick 6 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 7 due to a read lock conflict on x2 held by T3.
+T2 blocked at tick 8 due to a read lock conflict on x2 held by T3.
+T2 commited. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 9 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 10 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 11 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 12 due to a read lock conflict on x2 held by T2.
+T1 aborted. 
+x3: 30
+Sites Affected: 5
+T3 blocked at tick 10 due to a read lock conflict on x5 held by T2.
+T3 blocked at tick 11 due to a read lock conflict on x5 held by T2.
+T3 blocked at tick 12 due to a read lock conflict on x5 held by T2.
+T3 blocked at tick 13 due to a read lock conflict on x5 held by T2.
+T3 aborted. 
+x4: 40
+Sites Affected: 1
+T4 blocked at tick 11 due to a read lock conflict on x1 held by T1.
+T4 blocked at tick 12 due to a read lock conflict on x1 held by T1.
+Sites Affected: 3
+T4 blocked at tick 13 due to a read lock conflict on x3 held by T3.
+T4 commited. 
+x2: 20
+x5: 50
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 12 due to a read lock conflict on x4 held by T4.
+T2 blocked at tick 13 due to a read lock conflict on x4 held by T4.
+T2 blocked at tick 14 due to a read lock conflict on x4 held by T4.
+T2 blocked at tick 15 due to a read lock conflict on x4 held by T4.
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted. site failure.
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 7 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 8 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 9 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 10 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 9 due to a write lock conflict on x4 held by T1.
+T3 blocked at tick 10 due to a write lock conflict on x4 held by T1.
+T3 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T3 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T4 blocked at tick 10 due to a write lock conflict on x4 held by T1.
+T4 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T4 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T4 blocked at tick 13 due to a write lock conflict on x4 held by T3.
+T4 blocked at tick 14 due to a write lock conflict on x4 held by T3.
+T4 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T5 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T5 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T5 blocked at tick 13 due to a write lock conflict on x4 held by T3.
+T5 blocked at tick 14 due to a write lock conflict on x4 held by T3.
+T5 commited. 
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x5: 50
+T1 aborted. site failure.
+Site 1 - x8: 88
+Site 2 - 
+Site 3 - x8: 88
+Site 4 - x8: 88
+Site 5 - x8: 88
+Site 6 - x8: 88
+Site 7 - x8: 88
+Site 8 - x8: 88
+Site 9 - x8: 88
+Site 10 - x8: 88
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sites Affected: 1
+T2 blocked at tick 5 due to a write lock conflict on x1 held by T1.
+T2 aborted. 
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 4 due to a write lock conflict on x2 held by T2.
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T2.
+T1 commited. 
+x1: 10
+T1 commited. 
+Sites Affected: 1, 2, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 25 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 26 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 27 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 28 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 29 due to a read lock conflict on x3 held by T3.
+T2 aborted. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 20 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 21 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 22 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 23 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 24 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 25 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 26 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 27 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 28 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 29 due to a read lock conflict on x2 held by T2.
+T1 aborted. 
+x4: 40
+Sites Affected: 5
+T4 blocked at tick 28 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 29 due to a read lock conflict on x5 held by T5.
+T4 aborted. 
+x9: 90
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T9 blocked at tick 30 due to a read lock conflict on x10 held by T10.
+T9 blocked at tick 31 due to a read lock conflict on x10 held by T10.
+T9 blocked at tick 32 due to a read lock conflict on x10 held by T10.
+T9 aborted. 
+x8: 80
+x6: 60
+Sites Affected: 9
+T8 blocked at tick 26 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 26 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 27 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 27 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 28 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 28 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 29 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 29 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 30 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 30 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 31 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 31 due to a read lock conflict on x9 held by T10.
+T8 blocked at tick 32 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 32 due to a read lock conflict on x9 held by T10.
+T8 aborted. 
+x7: 70
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T7 blocked at tick 24 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 25 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 26 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 27 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 28 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 29 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 30 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 31 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 32 due to a read lock conflict on x8 held by T8.
+T7 commited. 
+x6: 60
+Sites Affected: 7
+T6 blocked at tick 31 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 32 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 33 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 34 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 35 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 36 due to a read lock conflict on x7 held by T7.
+T6 commited. 
+x10: 100
+x9: 90
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T10 blocked at tick 32 due to a read lock conflict on x6 held by T8.
+T10 blocked at tick 32 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 33 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 34 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 35 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 36 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 37 due to a read lock conflict on x6 held by T6.
+T10 commited. 
+x3: 30
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 27 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 28 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 29 due to a read lock conflict on x4 held by T4.
+T3 commited. 
+Site 1 - x4: 34, x6: 6, x8: 78
+Site 2 - x4: 34, x6: 6, x8: 78
+Site 3 - x4: 34, x6: 6, x8: 78
+Site 4 - x4: 34, x6: 6, x8: 78
+Site 5 - x4: 34, x6: 6, x8: 78
+Site 6 - x4: 34, x6: 6, x8: 78
+Site 7 - x4: 34, x6: 6, x8: 78
+Site 8 - x4: 34, x6: 6, x7: 67, x8: 78
+Site 9 - x4: 34, x6: 6, x8: 78
+Site 10 - x4: 34, x6: 6, x8: 78
+x5: 50
+Sites Affected: 1
+T5 blocked at tick 29 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 29 due to a read lock conflict on x1 held by T1.
+T5 blocked at tick 30 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 31 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 32 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 33 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 34 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 35 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 36 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 37 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 38 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 39 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 40 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 41 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 42 due to a read lock conflict on x1 held by T3.
+T5 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 aborted. site failure.
+x3: 30
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited. 
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+x1: 10
+x5: 50
+T1 aborted. site failure.
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 4 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 4 due to a read lock conflict on x2 held by T2.
+T2 aborted. 
+x2: 20
+T1 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T4 blocked at tick 10 due to a write lock conflict on x2 held by T3.
+T4 blocked at tick 11 due to a write lock conflict on x2 held by T3.
+T4 aborted. 
+x1: 10
+T1 commited. 
+x1: 10
+T2 commited. 
+x2: 20
+T1 commited. 
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 7 due to a read lock conflict on x2 held by T3.
+T3 blocked at tick 7 due to a write lock conflict on x2 held by T2.
+T3 aborted. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 5 due to a read lock conflict on x2 held by T3.
+T2 blocked at tick 5 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 6 due to a read lock conflict on x2 held by T3.
+T2 blocked at tick 6 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 7 due to a read lock conflict on x2 held by T3.
+T2 commited. 
+Site 1 - x2: 202
+Site 2 - x2: 202
+Site 3 - x2: 202
+Site 4 - x2: 202
+Site 5 - x2: 202
+Site 6 - x2: 202
+Site 7 - x2: 202
+Site 8 - x2: 202
+Site 9 - x2: 202
+Site 10 - x2: 202
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 5 due to a write lock conflict on x7 held by T1.
+T2 aborted. 
+Sites Affected: 7
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 4 due to a write lock conflict on x8 held by T2.
+T1 blocked at tick 5 due to a write lock conflict on x8 held by T2.
+T1 commited. 
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 4 due to a read lock conflict on x2 held by T2.
+T2 blocked at tick 4 due to a read lock conflict on x2 held by T1.
+T2 aborted. 
+x2: 20
+T1 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x2: 20000
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x2: 400
+T1 commited. 
+T2 blocked at tick 4 due to a write lock conflict on x2 held by T1.
+T2 blocked at tick 5 due to a write lock conflict on x2 held by T1.
+T2 blocked at tick 6 due to a write lock conflict on x2 held by T1.
+T2 blocked at tick 7 due to a write lock conflict on x2 held by T1.
+T2 blocked at tick 8 due to a write lock conflict on x2 held by T1.
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x2: 1
+T2 commited. 
+Site 1 - x2: 1
+Site 2 - x1: 1000, x2: 1
+Site 3 - x2: 1
+Site 4 - x2: 1
+Site 5 - x2: 1
+Site 6 - x2: 1
+Site 7 - x2: 1
+Site 8 - x2: 1
+Site 9 - x2: 1
+Site 10 - x2: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted. site failure.
+Sites Affected: 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited. 
+x2: 20
+T2 commited. 
+Site 1 - 
+Site 2 - x2: 100
+Site 3 - x2: 100
+Site 4 - x2: 100
+Site 5 - x2: 100
+Site 6 - x2: 100
+Site 7 - x2: 100
+Site 8 - x2: 100
+Site 9 - x2: 100
+Site 10 - x2: 100
+Sites Affected: 1
+T4 blocked at tick 20 due to a read lock conflict on x2 held by T2.
+T4 blocked at tick 21 due to a read lock conflict on x2 held by T2.
+T4 blocked at tick 22 due to a read lock conflict on x2 held by T2.
+T4 commited. 
+x1: 10
+Sites Affected: 1
+T1 commited. 
+Sites Affected: 1
+T2 blocked at tick 4 due to a write lock conflict on x1 held by T1.
+T2 blocked at tick 5 due to a write lock conflict on x1 held by T1.
+T2 commited. 
+Site 1 - 
+Site 2 - x1: 202
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 4 due to a write lock conflict on x2 held by T3.
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T1 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T2 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 5 due to a write lock conflict on x1 held by T1.
+T2 aborted. 
+Sites Affected: 1
+T1 blocked at tick 4 due to a write lock conflict on x2 held by T2.
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T2.
+x2: 20
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted. site failure.
+Sites Affected: 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited. 
+Sites Affected: 3
+T3 commited. 
+x3: 30
+T1 commited. 
+x3: 33
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sites Affected: 1
+T2 blocked at tick 5 due to a write lock conflict on x1 held by T1.
+T2 aborted. 
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 4 due to a write lock conflict on x2 held by T2.
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T2.
+T1 commited. 
+Site 1 - x2: 102
+Site 2 - x1: 101, x2: 102
+Site 3 - x2: 102
+Site 4 - x2: 102
+Site 5 - x2: 102
+Site 6 - x2: 102
+Site 7 - x2: 102
+Site 8 - x2: 102
+Site 9 - x2: 102
+Site 10 - x2: 102
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x5: 50
+T1 aborted. site failure.
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x4 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 44
+T3 commited. 
+x2: 22
+T1 commited. 
+Site 1 - x2: 22, x4: 44
+Site 2 - x2: 22, x4: 44
+Site 3 - x2: 22, x4: 44
+Site 4 - x2: 22, x4: 44
+Site 5 - x2: 22, x4: 44
+Site 6 - x2: 22, x4: 44
+Site 7 - x2: 22, x4: 44
+Site 8 - x2: 22, x4: 44
+Site 9 - x2: 22, x4: 44
+Site 10 - x2: 22, x4: 44
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sites Affected: 1
+T2 blocked at tick 5 due to a write lock conflict on x1 held by T1.
+T2 aborted. 
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 4 due to a write lock conflict on x2 held by T2.
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T2.
+T1 commited. 
+Site 1 - x2: 102
+Site 2 - x1: 101, x2: 102
+Site 3 - x2: 102
+Site 4 - x2: 102
+Site 5 - x2: 102
+Site 6 - x2: 102
+Site 7 - x2: 102
+Site 8 - x2: 102
+Site 9 - x2: 102
+Site 10 - x2: 102
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited. 
+x2: 20
+x1: 10
+T2 commited. 
+x2: 20
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 4 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 5 due to a read lock conflict on x2 held by T3.
+T2 blocked at tick 5 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 6 due to a read lock conflict on x2 held by T3.
+T2 blocked at tick 6 due to a read lock conflict on x2 held by T1.
+T2 blocked at tick 7 due to a read lock conflict on x2 held by T3.
+T2 blocked at tick 8 due to a read lock conflict on x2 held by T3.
+T2 blocked at tick 9 due to a read lock conflict on x2 held by T3.
+T2 aborted. site failure.
+x2: 20
+T3 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 3
+T1 commited. 
+x1: 10
+x2: 20
+x3: 30
+T2 commited. 
+x3: 33
+T3 commited. 
+x1: 10
+T1 commited. 
+x1: 10
+T2 commited. 
+x1: 10
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T4 commited. 
+x2: 99
+T5 commited. 
+T6 aborted. write operation has no available sites
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 5 due to a write lock conflict on x4 held by T2.
+T3 blocked at tick 6 due to a write lock conflict on x4 held by T2.
+x4: 44
+T3 commited. 
+x2: 22
+T1 commited. 
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+x1: 10
+x5: 50
+T1 aborted. site failure.
+Sites Affected: 1
+T1 commited. 
+T2 aborted. write operation has no available sites
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited. 
+T2 blocked at tick 4 due to a write lock conflict on x2 held by T1.
+T2 blocked at tick 5 due to a write lock conflict on x2 held by T1.
+x2: 100
+T2 commited. 
+Site 1 - x2: 100
+Site 2 - x2: 100
+Site 3 - x2: 100
+Site 4 - x2: 100
+Site 5 - x2: 100
+Site 6 - x2: 100
+Site 7 - x2: 100
+Site 8 - x2: 100
+Site 9 - x2: 100
+Site 10 - x2: 100
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted. site failure.
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 7 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 8 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 9 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 10 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T2 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 9 due to a write lock conflict on x4 held by T1.
+T3 blocked at tick 10 due to a write lock conflict on x4 held by T1.
+T3 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T3 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T4 blocked at tick 10 due to a write lock conflict on x4 held by T1.
+T4 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T4 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T4 blocked at tick 13 due to a write lock conflict on x4 held by T3.
+T4 blocked at tick 14 due to a write lock conflict on x4 held by T3.
+T4 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T5 blocked at tick 11 due to a write lock conflict on x4 held by T1.
+T5 blocked at tick 12 due to a write lock conflict on x4 held by T1.
+T5 blocked at tick 13 due to a write lock conflict on x4 held by T3.
+T5 blocked at tick 14 due to a write lock conflict on x4 held by T3.
+T5 commited. 
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+x3: 30
+Sites Affected: 5
+T1 commited. 
+x2: 20
+T1 commited. 
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sites Affected: 1
+T2 blocked at tick 5 due to a write lock conflict on x1 held by T1.
+T2 aborted. 
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 4 due to a write lock conflict on x2 held by T2.
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T2.
+T1 commited. 
+Site 1 - x2: 102
+Site 2 - x1: 101, x2: 102
+Site 3 - x2: 102
+Site 4 - x2: 102
+Site 5 - x2: 102
+Site 6 - x2: 102
+Site 7 - x2: 102
+Site 8 - x2: 102
+Site 9 - x2: 102
+Site 10 - x2: 102
+x3: 30
+x4: 40
+x5: 50
+T1 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited. 
+x2: 20
+x1: 10
+T2 commited. 
+Site 1 - x2: 102
+Site 2 - x1: 101, x2: 102
+Site 3 - x2: 102
+Site 4 - x2: 102
+Site 5 - x2: 102
+Site 6 - x2: 102
+Site 7 - x2: 102
+Site 8 - x2: 102
+Site 9 - x2: 102
+Site 10 - x2: 102
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 4 due to a write lock conflict on x2 held by T3.
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T1 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T2 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T2 commited. 
+Site 1 - x2: 10
+Site 2 - x2: 10
+Site 3 - x2: 10
+Site 4 - x2: 10
+Site 5 - x2: 10
+Site 6 - x2: 10
+Site 7 - x2: 10
+Site 8 - x2: 10
+Site 9 - x2: 10
+Site 10 - x2: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited. 
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited. 
+x2: 20
+x1: 10
+T2 commited. 
+Site 1 - x2: 102
+Site 2 - x1: 101, x2: 102
+Site 3 - x2: 102
+Site 4 - x2: 102
+Site 5 - x2: 102
+Site 6 - x2: 102
+Site 7 - x2: 102
+Site 8 - x2: 102
+Site 9 - x2: 102
+Site 10 - x2: 102
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 4 due to a write lock conflict on x2 held by T3.
+T2 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T2 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T1 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T1 commited. 
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x5: 50
+T1 aborted. site failure.
+Sites Affected: 1
+T1 commited. 
+T2 aborted. write operation has no available sites
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 4 due to a write lock conflict on x2 held by T3.
+T1 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T1 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 blocked at tick 5 due to a write lock conflict on x2 held by T3.
+T2 blocked at tick 6 due to a write lock conflict on x2 held by T3.
+T2 commited. 
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+x1: 10
+x5: 50
+T1 aborted. site failure.
+Site 1 - x8: 88
+Site 2 - 
+Site 3 - x8: 88
+Site 4 - x8: 88
+Site 5 - x8: 88
+Site 6 - x8: 88
+Site 7 - x8: 88
+Site 8 - x8: 88
+Site 9 - x8: 88
+Site 10 - x8: 88
+x1: 10
+T1 commited. 
+x1: 10
+T2 commited. 
+x1: 10
+T4 commited. 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1
+T3 blocked at tick 5 due to a read lock conflict on x1 held by T1.
+T3 blocked at tick 5 due to a read lock conflict on x1 held by T2.
+T3 blocked at tick 6 due to a read lock conflict on x1 held by T1.
+T3 blocked at tick 6 due to a read lock conflict on x1 held by T2.
+T3 blocked at tick 7 due to a read lock conflict on x1 held by T4.
+T3 blocked at tick 7 due to a read lock conflict on x1 held by T1.
+T3 blocked at tick 7 due to a read lock conflict on x1 held by T2.
+T3 blocked at tick 8 due to a read lock conflict on x1 held by T4.
+T3 blocked at tick 8 due to a read lock conflict on x1 held by T1.
+T3 blocked at tick 8 due to a read lock conflict on x1 held by T2.
+T3 blocked at tick 9 due to a read lock conflict on x1 held by T4.
+T3 blocked at tick 9 due to a read lock conflict on x1 held by T2.
+T3 blocked at tick 10 due to a read lock conflict on x1 held by T4.
+T3 blocked at tick 11 due to a read lock conflict on x1 held by T4.
+T3 commited. 
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited. 
+x3: 30
+Sites Affected: 5
+T1 commited. 
+Sites Affected: 1
+T1 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T4 blocked at tick 10 due to a write lock conflict on x2 held by T3.
+T4 blocked at tick 11 due to a write lock conflict on x2 held by T3.
+T4 aborted. 
+Sites Affected: 1
+T2 blocked at tick 5 due to a write lock conflict on x1 held by T1.
+T2 blocked at tick 6 due to a write lock conflict on x1 held by T1.
+T2 commited. 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Sites Affected: 5
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 11 due to a write lock conflict on x4 held by T4.
+T3 commited. 
+x2: 20
+Sites Affected: 3
+T2 blocked at tick 25 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 26 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 27 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 28 due to a read lock conflict on x3 held by T3.
+T2 blocked at tick 29 due to a read lock conflict on x3 held by T3.
+T2 aborted. 
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 blocked at tick 20 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 21 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 22 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 23 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 24 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 25 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 26 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 27 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 28 due to a read lock conflict on x2 held by T2.
+T1 blocked at tick 29 due to a read lock conflict on x2 held by T2.
+T1 aborted. 
+x4: 40
+Sites Affected: 5
+T4 blocked at tick 28 due to a read lock conflict on x5 held by T5.
+T4 blocked at tick 29 due to a read lock conflict on x5 held by T5.
+T4 aborted. 
+x9: 90
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T9 blocked at tick 30 due to a read lock conflict on x10 held by T10.
+T9 blocked at tick 31 due to a read lock conflict on x10 held by T10.
+T9 aborted. 
+x8: 80
+x6: 60
+Sites Affected: 9
+T8 blocked at tick 26 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 27 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 28 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 29 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 30 due to a read lock conflict on x9 held by T9.
+T8 blocked at tick 31 due to a read lock conflict on x9 held by T9.
+T8 commited. 
+x10: 100
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T10 blocked at tick 31 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 31 due to a read lock conflict on x6 held by T8.
+T10 blocked at tick 32 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 32 due to a read lock conflict on x6 held by T8.
+T10 blocked at tick 33 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 33 due to a read lock conflict on x6 held by T8.
+T10 blocked at tick 34 due to a read lock conflict on x6 held by T6.
+T10 blocked at tick 34 due to a read lock conflict on x6 held by T8.
+T10 commited. 
+x7: 70
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T7 blocked at tick 24 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 25 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 26 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 27 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 28 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 29 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 30 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 31 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 32 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 33 due to a read lock conflict on x8 held by T8.
+T7 blocked at tick 34 due to a read lock conflict on x8 held by T8.
+T7 commited. 
+x6: 60
+Sites Affected: 7
+T6 blocked at tick 23 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 24 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 25 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 26 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 27 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 28 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 29 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 30 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 31 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 32 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 33 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 34 due to a read lock conflict on x7 held by T7.
+T6 blocked at tick 35 due to a read lock conflict on x7 held by T7.
+T6 commited. 
+x3: 30
+x1: 10
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 blocked at tick 27 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 28 due to a read lock conflict on x4 held by T4.
+T3 blocked at tick 29 due to a read lock conflict on x4 held by T4.
+T3 commited. 
+Site 1 - x4: 34, x8: 78
+Site 2 - x4: 34, x6: 6, x8: 78
+Site 3 - x4: 34, x6: 6, x8: 78
+Site 4 - x4: 34, x6: 6, x8: 78
+Site 5 - x4: 34, x6: 6, x8: 78
+Site 6 - x4: 34, x6: 6, x8: 78
+Site 7 - x4: 34, x6: 6, x8: 78
+Site 8 - x4: 34, x6: 6, x7: 67, x8: 78
+Site 9 - x4: 34, x6: 6, x8: 78
+Site 10 - x4: 34, x6: 6, x8: 78, x9: 89
+x5: 50
+Sites Affected: 1
+T5 blocked at tick 29 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 29 due to a read lock conflict on x1 held by T1.
+T5 blocked at tick 30 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 31 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 32 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 33 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 34 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 35 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 36 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 37 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 38 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 39 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 40 due to a read lock conflict on x1 held by T3.
+T5 blocked at tick 41 due to a read lock conflict on x1 held by T3.
+T5 commited. 

@@ -1,4 +1,5 @@
-import transmgr
+# see https://github.com/sunyinqi0508/dbproj for updated documentations
+
 from common import Job, Transaction, Lock
 
 class Site: # Data manager
@@ -35,11 +36,11 @@ class Site: # Data manager
         data = self.datamap[d]
         lastcommit = self.locks[data].lastcommit
         if (data > 9 or (lastcommit < 0 or lastcommit >= self.startup_time)) and lastcommit <= tr.time:
-            tr.read_out(d, self.x[data])
+            tr.read_out(d, self.x[data], self.id)
             return True
         for t, v in reversed(self.xhistory[data]):
             if ((data > 9 or t < 0 or t >= self.startup_time) and t <= tr.time):
-                tr.read_out(d, v)
+                tr.read_out(d, v, self.id)
                 return True
         return False
 
@@ -53,16 +54,16 @@ class Site: # Data manager
         def _read():
             if status <= 1: # readlocked or no lock
                 this_lock.read_lock(tr) # add self
-                tr.read_out(d, self.x[data])
+                tr.read_out(d, self.x[data], self.id)
             elif tr in owners: # write lock by same tr
-                tr.read_out(d, self.new_x[data]) # read new data
+                tr.read_out(d, self.new_x[data], self.id) # read new data
             else:
                 return False
             return True
 
         def _write():
             if status == 0 or status == 4 or tr in owners:
-                if status == 0:
+                if status == 0 or status == 4:
                     this_lock.write_lock(tr)
                 if status == 1:
                     if len(owners) > 1:
@@ -78,10 +79,10 @@ class Site: # Data manager
             return False
 
         res =  _read() if val is None else _write()
-        if not res:
+        if not res and val is not None:
             this_lock.jobs.append(job)
         else:
-            job.succ += 1
+            job.succ += res
             # job.halfdone = job.succ < job.s_cnt
         return res
 
@@ -108,9 +109,10 @@ class Site: # Data manager
                 for j in l.jobs:
                     j.tr.blocking = True
                     # cmdtick, id, edge,
-                    j.tr.block_out(self.transmgr.cmd_tick, self.datarev_map[i])
                     for o in l.owners:
-                        self.transmgr.dep_graph.add((o.id, j.tr.id))
+                        if o.id != j.tr.id:
+                            j.tr.block_out(self.transmgr.cmd_tick, self.datarev_map[i], o.id, l.lock)
+                            self.transmgr.dep_graph.add((o.id, j.tr.id))
         return overall_changed
 
     def abort(self, tr):
@@ -141,8 +143,9 @@ class Site: # Data manager
         for tr in self.transactions:
             if not tr.ro:
                 tr.aborted = True
+                tr.reason = 4 # site failure
 
     def rec(self, init = False):
         self.up = True
-        self.data_lock = [Lock(not init and i < 10) for i in range(12)]
+        self.locks = [Lock(not init and i < 10) for i in range(12)]
         self.startup_time = self.transmgr.time
