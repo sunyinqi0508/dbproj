@@ -1,7 +1,14 @@
 // From Chris Keitel's email.
-fail(1); fail(2); fail(3); fail(4); fail(5)
+fail(1)
+fail(2)
+fail(3)
+fail(4)
+fail(5)
 // 6 stays up
-fail(7); fail(8); fail(9); fail(10)
+fail(7)
+fail(8)
+fail(9)
+fail(10)
 dump(x2)
 begin(T1)
 W(T1,x2,21) // Only available site is site 6, so that is the only site written

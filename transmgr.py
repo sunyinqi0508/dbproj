@@ -12,8 +12,14 @@ class TransMgr:
         self.dep_graph = set()
         self.readonlys = []
         self.cmd_tick = 0
-    def read(self, tr, data):
-        j = Job(tr, data)
+    def read(self, tr, data, j = None):
+        if j is None:
+            tr.seq += 1
+            j = Job(tr, data,tr.seq)
+        else:
+            tr = j.tr
+            data = j.data
+            
         if not data % 2: # rep
             for s in self.sites:
                 if s.up:
@@ -35,10 +41,22 @@ class TransMgr:
                 j.succ = ret.rw(j)
                 return 
         
-        tr.aborted = True # ro or rw has no avail sites
+        # if tr.ro:
+        #     self.jobs.append(j)
+        #     tr.blocked = True
+        #     tr.out(f"T{tr.id} blocked because all possible sites are down.")
+        # else:
+        tr.aborted = True # rw has no avail sites
 
-    def write(self, tr, data, val):
-        j = Job(tr, data,val)
+    def write(self, tr, data, val, j = None):
+        if j is None:
+            tr.seq += 1
+            j = Job(tr, data,tr.seq,val)
+        else:
+            tr = j.tr
+            data = j.data
+            val = j.val
+
         if not data % 2:
             ups = []
             for s in self.sites:
@@ -49,7 +67,7 @@ class TransMgr:
                 else:
                     if s in tr.sites:
                         tr.aborted = True
-                tr.write_out(ups)
+            tr.write_out(ups)
             return j.succ
         else:
             j.succ = self.sites[data%10].rw(j)
@@ -118,6 +136,12 @@ class TransMgr:
         if len(blocking) > 0 and self.cycle_detector():
             self.update()
             self.tick()
+    def recover(self):
+        for j in self.jobs:
+            if j.val is None:
+                self.read(0,0, j)
+            else:
+                self.write(0,0,0,j)
 
     def exec(self, cmd, p1, p2, p3):
         if cmd[0] == 'e':
@@ -165,7 +189,7 @@ class TransMgr:
                 print(f"error: transaction terminated: R({tid}, {data})")
         self.tick()
         self.cmd_tick += 1
-        
+
     def dump(self):
         for s in self.sites:
             print(f"Site {s.id} - ", end = '')

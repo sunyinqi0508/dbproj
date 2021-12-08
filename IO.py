@@ -1,6 +1,7 @@
 import transmgr
 import re
-    
+import sys
+
 class parser:
     def __init__(self, input, transmgr, prompt = True):
         self.transmgr = transmgr
@@ -33,7 +34,8 @@ class parser:
         if len(predicate) > 0:
             try:
                 self.transmgr.exec(predicate, params[0], params[1], params[2])
-            except (TypeError, ValueError):
+            except (TypeError, ValueError) as e:
+                print(f'Error: {e}')
                 pass
     def mega(self, loc):
         from os import listdir
@@ -60,4 +62,11 @@ class Formatter:
         print(str)
 
 if __name__ == '__main__':
-    parser('input', transmgr.TransMgr())
+    if len(sys.argv) > 1:
+        if(sys.argv[1].startswith('mega')):
+            p = parser(None, transmgr.TransMgr(), False)
+            p.mega(sys.argv[2].strip())
+        else:
+            parser(sys.argv[1], transmgr.TransMgr(), False)
+    else:
+        parser('input', transmgr.TransMgr())

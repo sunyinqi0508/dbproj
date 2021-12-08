@@ -1,0 +1,356 @@
+Sites Affected: 3
+T1 commited.
+x1: 10
+x2: 20
+x3: 30
+T2 commited.
+x1: 10
+T1 commited.
+Sites Affected: 1, 2, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited.
+Site 1 - x8: 88
+Site 2 - x8: 88
+Site 3 - 
+Site 4 - 
+Site 5 - x8: 88
+Site 6 - x8: 88
+Site 7 - x8: 88
+Site 8 - x8: 88
+Site 9 - x8: 88
+Site 10 - x8: 88
+Sites Affected: 3
+T2 aborted.
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 aborted.
+x2: 20
+T1 commited.
+Sites Affected: 3
+T1 commited.
+x1: 10
+x2: 20
+x3: 30
+T2 commited.
+x3: 33
+T3 commited.
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited.
+x1: 10
+x5: 50
+T1 aborted.
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited.
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x5: 50
+T1 aborted.
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 aborted.
+x3: 30
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited.
+Site 1 - x4: 91
+Site 2 - 
+Site 3 - x4: 91
+Site 4 - x4: 91
+Site 5 - x4: 91
+Site 6 - x4: 91
+Site 7 - x4: 91
+Site 8 - x4: 91
+Site 9 - x4: 91
+Site 10 - x4: 91
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited.
+x2: 20
+x1: 10
+T2 commited.
+Site 1 - x2: 102
+Site 2 - x1: 101, x2: 102
+Site 3 - x2: 102
+Site 4 - x2: 102
+Site 5 - x2: 102
+Site 6 - x2: 102
+Site 7 - x2: 102
+Site 8 - x2: 102
+Site 9 - x2: 102
+Site 10 - x2: 102
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited.
+x3: 30
+Sites Affected: 5
+T1 commited.
+Site 1 - x8: 88
+Site 2 - 
+Site 3 - x8: 88
+Site 4 - x8: 88
+Site 5 - x8: 88
+Site 6 - x5: 91, x8: 88
+Site 7 - x8: 88
+Site 8 - x8: 88
+Site 9 - x8: 88
+Site 10 - x8: 88
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 aborted.
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited.
+Site 1 - x4: 91
+Site 2 - x4: 91
+Site 3 - x4: 91
+Site 4 - x4: 91
+Site 5 - x4: 91
+Site 6 - x4: 91
+Site 7 - x4: 91
+Site 8 - x4: 91
+Site 9 - x4: 91
+Site 10 - x4: 91
+Sites Affected: 3
+T1 commited.
+x1: 10
+x2: 20
+x3: 30
+T2 commited.
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited.
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x5: 50
+T1 aborted.
+Sites Affected: 3
+T2 aborted.
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 aborted.
+x2: 20
+T1 commited.
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited.
+x1: 10
+x5: 50
+T1 aborted.
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+x1: 10
+T1 commited.
+Sites Affected: 1, 2, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited.
+Site 1 - x8: 88
+Site 2 - x8: 88
+Site 3 - 
+Site 4 - 
+Site 5 - x8: 88
+Site 6 - x8: 88
+Site 7 - x8: 88
+Site 8 - x8: 88
+Site 9 - x8: 88
+Site 10 - x8: 88
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted.
+Sites Affected: 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited.
+Site 1 - 
+Site 2 - x2: 100
+Site 3 - x2: 100
+Site 4 - x2: 100
+Site 5 - x2: 100
+Site 6 - x2: 100
+Site 7 - x2: 100
+Site 8 - x2: 100
+Site 9 - x2: 100
+Site 10 - x2: 100
+x2: 20
+T1 commited.
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited.
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted.
+Sites Affected: 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited.
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 aborted.
+Sites Affected: 2, 3, 4, 5, 6, 7, 8, 9, 10
+T3 commited.
+x2: 20
+T1 commited.
+x2: 20
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T2 commited.
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 aborted.
+x3: 30
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited.
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 commited.
+x3: 30
+Sites Affected: 5
+T1 commited.
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 aborted.
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited.
+Site 1 - x4: 91
+Site 2 - x4: 91
+Site 3 - x4: 91
+Site 4 - x4: 91
+Site 5 - x4: 91
+Site 6 - x4: 91
+Site 7 - x4: 91
+Site 8 - x4: 91
+Site 9 - x4: 91
+Site 10 - x4: 91
+Site 1 - x4: 91
+Site 2 - x4: 91
+Site 3 - x4: 91
+Site 4 - x4: 91
+Site 5 - x4: 91
+Site 6 - x4: 91
+Site 7 - x4: 91
+Site 8 - x4: 91
+Site 9 - x4: 91
+Site 10 - x4: 91
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 aborted.
+x3: 30
+Sites Affected: 1, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited.
+Site 1 - x4: 91
+Site 2 - 
+Site 3 - x4: 91
+Site 4 - x4: 91
+Site 5 - x4: 91
+Site 6 - x4: 91
+Site 7 - x4: 91
+Site 8 - x4: 91
+Site 9 - x4: 91
+Site 10 - x4: 91
+Site 1 - x4: 91
+Site 2 - 
+Site 3 - x4: 91
+Site 4 - x4: 91
+Site 5 - x4: 91
+Site 6 - x4: 91
+Site 7 - x4: 91
+Site 8 - x4: 91
+Site 9 - x4: 91
+Site 10 - x4: 91
+Sites Affected: 1
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited.
+x2: 20
+x1: 10
+T2 commited.
+Site 1 - x2: 102
+Site 2 - x1: 101, x2: 102
+Site 3 - x2: 102
+Site 4 - x2: 102
+Site 5 - x2: 102
+Site 6 - x2: 102
+Site 7 - x2: 102
+Site 8 - x2: 102
+Site 9 - x2: 102
+Site 10 - x2: 102
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+x3: 30
+T2 aborted.
+x3: 30
+Sites Affected: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+T1 commited.
+Sites Affected: 3
+T1 commited.
+x1: 10
+x2: 20
+x3: 30
+T2 commited.
+x3: 33
+T3 commited.
+Site 1 - 
+Site 2 - 
+Site 3 - 
+Site 4 - 
+Site 5 - 
+Site 6 - 
+Site 7 - 
+Site 8 - 
+Site 9 - 
+Site 10 - 
